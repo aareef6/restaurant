@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Copper &amp; Clove — Modern Kitchen, Honest Ingredients</title>
+<meta name="description" content="Browse the full menu at Copper &amp; Clove — starters, biryani, wood-fired pizza, burgers and more. Scan, browse, and order at the table.">
+<meta name="theme-color" content="#15100A">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Copper & Clove — Digital Menu">
+<meta property="og:description" content="Modern kitchen, honest ingredients. Browse our full menu.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/hero.svg">
+
+<link rel="icon" href="images/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a href="#menu" class="skip-link">Skip to menu</a>
+
+<!-- Icon sprite (hidden, referenced via <use>) -->
+<div aria-hidden="true" style="display:none">
+  <!-- sprite injected by app.js on load for portability, see icons/sprite.svg -->
+</div>
+
+<!-- ======================= NAVIGATION ======================= -->
+<header class="site-nav" id="siteNav">
+  <div class="container">
+    <a href="#top" class="brand" aria-label="Copper & Clove home">
+      <img src="images/logo.svg" alt="" width="40" height="40">
+      <span>
+        <span class="brand-name">Copper &amp; Clove</span>
+        <span class="brand-tagline">Modern Kitchen</span>
+      </span>
+    </a>
+
+    <nav id="navLinks" class="nav-links" aria-label="Primary">
+      <a href="#top">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#visit">Visit Us</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-btn" id="searchToggle" aria-label="Jump to search">
+        <svg class="icon"><use href="icons/sprite.svg#icon-search"></use></svg>
+      </button>
+      <button class="icon-btn nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <svg class="icon"><use href="icons/sprite.svg#icon-menu"></use></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ======================= HERO ======================= -->
+<section class="hero" id="top">
+  <img src="images/hero.svg" alt="" class="hero-bg">
+  <div class="hero-inner">
+    <span class="hero-eyebrow">Scan &middot; Browse &middot; Savor</span>
+    <h1>Good food,<br><em>plated with intent.</em></h1>
+    <p class="hero-sub">Welcome to Copper &amp; Clove. Our menu lives right here — browse every dish, check what's in it, and find your next favourite before your order even arrives.</p>
+    <div class="hero-cta">
+      <a href="#menu" class="btn btn-primary">
+        View Full Menu
+        <svg class="icon"><use href="icons/sprite.svg#icon-search"></use></svg>
+      </a>
+      <a href="#visit" class="btn btn-ghost">Find Us</a>
+    </div>
+    <div class="hero-stats">
+      <div><strong id="statItems">24</strong><span>Dishes Plated</span></div>
+      <div><strong id="statCats">10</strong><span>Menu Categories</span></div>
+      <div><strong>4.8</strong><span>Guest Rating</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= MENU ======================= -->
+<main>
+  <section class="section section-tight" id="menu">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">The Full Spread</span>
+          <h2>Our Menu</h2>
+          <p>Every dish we serve, in one place. Tap any card for the full story — ingredients, spice level and more.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-controls">
+      <div class="container">
+        <div class="search-bar" id="searchBar">
+          <svg class="icon"><use href="icons/sprite.svg#icon-search"></use></svg>
+          <input type="search" id="searchInput" placeholder="Search dishes, categories, ingredients…" aria-label="Search menu">
+          <button class="search-clear" id="searchClear" aria-label="Clear search">
+            <svg class="icon"><use href="icons/sprite.svg#icon-close"></use></svg>
+          </button>
+        </div>
+
+        <div class="category-scroller" id="categoryScroller" role="tablist" aria-label="Menu categories">
+          <!-- category chips injected by app.js -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p class="results-meta" id="resultsMeta" aria-live="polite"></p>
+      <div class="menu-grid" id="menuGrid" aria-live="polite">
+        <!-- menu cards injected by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= ABOUT ======================= -->
+  <section class="about" id="about">
+    <div class="container">
+      <div>
+        <span class="eyebrow about-eyebrow">Our Story</span>
+        <h2>A kitchen built on simple, honest cooking.</h2>
+        <p>Copper &amp; Clove opened its doors to bring together the char of the tandoor, the wok's high heat, and a wood-fired oven — one menu, three traditions, no shortcuts. Every dish is made to order, using ingredients we'd happily explain to your table.</p>
+      </div>
+      <div class="about-figure">
+        <div><strong>100%</strong><span>Made To Order</span></div>
+        <div><strong>3</strong><span>Live Kitchens</span></div>
+        <div><strong>Daily</strong><span>Fresh Produce</span></div>
+        <div><strong>Zero</strong><span>Shortcuts</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="site-footer" id="visit">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="images/logo.svg" alt="" width="38" height="38">
+          <span class="footer-brand-name" id="footerName">Copper &amp; Clove</span>
+        </div>
+        <p class="footer-desc" id="footerTagline">Modern kitchen, honest ingredients. Scan the code on your table any time you want to see today's menu.</p>
+        <div class="footer-social" id="footerSocial">
+          <a href="#" id="socialWhatsapp" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+            <svg class="icon"><use href="icons/sprite.svg#icon-whatsapp"></use></svg>
+          </a>
+          <a href="#" id="socialFacebook" aria-label="Visit our Facebook page" target="_blank" rel="noopener">
+            <svg class="icon"><use href="icons/sprite.svg#icon-facebook"></use></svg>
+          </a>
+          <a href="#" id="socialInstagram" aria-label="Visit our Instagram" target="_blank" rel="noopener">
+            <svg class="icon"><use href="icons/sprite.svg#icon-instagram"></use></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul id="footerContact">
+          <!-- injected -->
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Business Hours</h4>
+        <ul id="footerHours">
+          <!-- injected -->
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Find Us</h4>
+        <div class="footer-map">
+          <iframe id="footerMap" src="" title="Restaurant location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span id="footerCopyright">&copy; 2026 Copper &amp; Clove. All rights reserved.</span>
+      <span>Built for the table &mdash; scan, browse, savor.</span>
+    </div>
+  </div>
+</footer>
+
+<a href="#" id="whatsappFab" class="whatsapp-fab" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+  <svg class="icon" style="width:26px;height:26px;"><use href="icons/sprite.svg#icon-whatsapp"></use></svg>
+</a>
+
+<!-- ======================= PRODUCT MODAL ======================= -->
+<div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal">
+    <div class="modal-media">
+      <img id="modalImage" src="" alt="">
+      <button class="modal-close" id="modalClose" aria-label="Close">
+        <svg class="icon"><use href="icons/sprite.svg#icon-close"></use></svg>
+      </button>
+    </div>
+    <div class="modal-content">
+      <span class="modal-category" id="modalCategory"></span>
+      <div class="modal-title-row">
+        <h3 class="modal-title" id="modalTitle"></h3>
+        <span class="modal-price" id="modalPrice"></span>
+      </div>
+      <div class="modal-meta" id="modalMeta"></div>
+      <p class="modal-desc" id="modalDesc"></p>
+      <div id="modalIngredientsWrap">
+        <div class="modal-section-title">Ingredients</div>
+        <div class="ingredient-tags" id="modalIngredients"></div>
+      </div>
+      <div class="modal-availability" id="modalAvailability"></div>
+    </div>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
