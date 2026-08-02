@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Smoked Chicken Tikka Pizza">
+  <defs>
+    <linearGradient id="g-p02" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5E3B22"/>
+      <stop offset="100%" stop-color="#20180F"/>
+    </linearGradient>
+    <radialGradient id="r-p02" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#C79A56" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#C79A56" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g-p02)"/>
+  <circle cx="203" cy="198" r="133" fill="url(#r-p02)"/>
+  <circle cx="199" cy="201" r="97" fill="none" stroke="#C79A56" stroke-opacity="0.35" stroke-width="1.5"/>
+  <circle cx="200" cy="200" r="72" fill="none" stroke="#C79A56" stroke-opacity="0.55" stroke-width="1"/>
+  <text x="200" y="214" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#C79A56" opacity="0.9">SC</text>
+  <text x="200" y="360" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" letter-spacing="2" fill="#F5F0E6" opacity="0.7">SMOKED CHICKEN TIKKA PIZZA</text>
+</svg>

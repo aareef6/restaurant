@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fresh Lime Soda">
+  <defs>
+    <linearGradient id="g-d01" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2E4A48"/>
+      <stop offset="100%" stop-color="#20180F"/>
+    </linearGradient>
+    <radialGradient id="r-d01" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#8FBBB2" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8FBBB2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g-d01)"/>
+  <circle cx="207" cy="200" r="137" fill="url(#r-d01)"/>
+  <circle cx="197" cy="200" r="101" fill="none" stroke="#8FBBB2" stroke-opacity="0.35" stroke-width="1.5"/>
+  <circle cx="200" cy="200" r="72" fill="none" stroke="#8FBBB2" stroke-opacity="0.55" stroke-width="1"/>
+  <text x="200" y="214" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#8FBBB2" opacity="0.9">FL</text>
+  <text x="200" y="360" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" letter-spacing="2" fill="#F5F0E6" opacity="0.7">FRESH LIME SODA</text>
+</svg>
