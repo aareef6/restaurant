@@ -17,22 +17,27 @@
     }
   },
   "categories": [
-    { "id": "starters", "label": "Starters", "icon": "starter" },
-    { "id": "soups", "label": "Soups", "icon": "soup" },
+    { "id": "chicken_starters", "label": "Chicken Starters", "icon": "chicken_starters" },
+    { "id": "mutton_starters", "label": "Mutton Starters", "icon": "mutton_starters" },
+    { "id": "seafood_starters", "label": "Seafood Starters", "icon": "seafood_starters" },
+    { "id": "veg_starters", "label": "veg Starters", "icon": "veg_starters" },
+    { "id": "soup", "label": "Soups", "icon": "soup" },
     { "id": "biryani", "label": "Biryani", "icon": "biryani" },
     { "id": "bucket-biryani", "label": "Bucket Biryani", "icon": "bucket" },
     { "id": "mutton_gravy", "label": "Mutton gravy", "icon": "mutton_gravy" },
-    { "id": "checken_gravy", "label": "Checken gravy", "icon": "checken_gravy" },
+    { "id": "chicken_gravy", "label": "Chicken gravy", "icon": "checken_gravy" },
     { "id": "seafood_gravy", "label": "Seafood gravy", "icon": "seafood_gravy" },
-    { "id": "fried_rice", "label": "Fried Rice", "icon": "rice" },
-    { "id": "noodles", "label": "Noodles", "icon": "noodles" },
-    { "id": "porotta", "label": "Porotta", "icon": "porotta" },
+    { "id": "veg_gravy", "label": "Veg gravy", "icon": "veg_gravy" },
+    { "id": "fried_rice", "label": "Fried Rice/Noodles", "icon": "rice" },
+    { "id": "porotta", "label": "Parotta", "icon": "porotta" },
     { "id": "egg_dish", "label": "Egg Dish", "icon": "egg_dish" },
     { "id": "tandoori-bread", "label": "Tandoori Bread", "icon": "tandoori-bread" },
-    { "id": "indian-veg-rice", "label": "Indian Veg Rice", "icon": "indian-veg-rice" },
+    { "id": "indian-veg-rice", "label": "Indian Veg Fried Rice", "icon": "indian-veg-rice" },
     { "id": "tandoori", "label": "Tandoori", "icon": "tandoori" },
-    { "id": "juice", "label": "Beverages", "icon": "juice" },
-    { "id": "dessert", "label": "Dessert", "icon": "dessert" }
+    { "id": "juice", "label": "Juice", "icon": "juice" },
+    { "id": "milk_shakes", "label": "Milk Shakes", "icon": "milk_shakes" },
+    { "id": "dessert", "label": "Dessert", "icon": "dessert" },
+    { "id": "ice_cream", "label": "Ice Cream", "icon": "ice_cream" }
   ],
   "items": [
     {
@@ -982,7 +987,7 @@
 {
   "id": "st01",
   "name": "Anifa Kerala Mutton",
-  "category": "starters",
+  "category": "mutton_starters",
   "price": 350,
   "description": "Tender mutton cooked in authentic Kerala spices with roasted coconut for a rich, aromatic coastal flavour.",
   "image": "images/anifa_kerala_mutton.jpg",
@@ -1002,7 +1007,7 @@
 {
   "id": "st02",
   "name": "Mutton Pepper Fry",
-  "category": "starters",
+  "category": "mutton_starters",
   "price": 350,
   "description": "Juicy mutton stir-fried with freshly crushed black pepper and aromatic spices for a bold, spicy finish.",
   "image": "images/mutton_pepper_fry.jpg",
@@ -1022,7 +1027,7 @@
 {
   "id": "st03",
   "name": "Mutton Chukka",
-  "category": "starters",
+  "category": "mutton_starters",
   "price": 350,
   "description": "Succulent mutton slow-roasted with South Indian spices until dry, tender, and intensely flavourful.",
   "image": "images/mutton_chukka.jpg",
@@ -1042,7 +1047,7 @@
 {
   "id": "st04",
   "name": "Madurai Mutton Varuval",
-  "category": "starters",
+  "category": "mutton_starters",
   "price": 350,
   "description": "Tender mutton roasted with Madurai-style spices and curry leaves for an authentic Chettinad-inspired taste.",
   "image": "images/madurai_mutton_varuval.jpg",
@@ -1062,7 +1067,7 @@
 {
   "id": "st05",
   "name": "Mutton Kola (3 Balls)",
-  "category": "starters",
+  "category": "mutton_starters",
   "price": 210,
   "description": "Crispy, deep-fried minced mutton balls blended with aromatic spices and herbs for a classic South Indian starter.",
   "image": "images/mutton_kola.jpg",
@@ -1082,7 +1087,7 @@
 {
   "id": "st06",
   "name": "Anifa Chicken 65 (Bone)",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 240,
   "description": "Crispy bone-in chicken tossed with signature spices for a spicy and flavorful starter.",
   "image": "images/anifa_chicken_65_bone.jpg",
@@ -1102,7 +1107,7 @@
 {
   "id": "st07",
   "name": "Anifa Chicken 65 (Boneless)",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 280,
   "description": "Tender boneless chicken fried until crispy and coated in bold South Indian spices.",
   "image": "images/anifa_chicken_65_boneless.jpg",
@@ -1122,7 +1127,7 @@
 {
   "id": "st08",
   "name": "Chicken Lollipop",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 280,
   "description": "Frenched chicken wings marinated and deep-fried until crispy with a spicy finish.",
   "image": "images/chicken_lollipop.jpg",
@@ -1142,7 +1147,7 @@
 {
   "id": "st09",
   "name": "Lollipop Manchurian",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 300,
   "description": "Crispy chicken lollipops tossed in a savory Indo-Chinese Manchurian sauce.",
   "image": "images/lollipop_manchurian.jpg",
@@ -1162,7 +1167,7 @@
 {
   "id": "st10",
   "name": "Orange Chicken",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 300,
   "description": "Crispy chicken coated in a sweet and tangy orange glaze with a refreshing citrus aroma.",
   "image": "images/orange_chicken.jpg",
@@ -1182,7 +1187,7 @@
 {
   "id": "st11",
   "name": "Lemon Chicken",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 300,
   "description": "Tender chicken tossed in a zesty lemon sauce with a refreshing citrus finish.",
   "image": "images/lemon_chicken.jpg",
@@ -1202,7 +1207,7 @@
 {
   "id": "st12",
   "name": "Coriander Chicken",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 300,
   "description": "Juicy chicken cooked with fresh coriander and aromatic spices for a fragrant flavour.",
   "image": "images/coriander_chicken.jpg",
@@ -1222,7 +1227,7 @@
 {
   "id": "st13",
   "name": "Chicken Pepper Fry",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 280,
   "description": "Tender chicken stir-fried with freshly crushed black pepper and aromatic spices.",
   "image": "images/chicken_pepper_fry.jpg",
@@ -1242,7 +1247,7 @@
 {
   "id": "st14",
   "name": "Dragon Chicken",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 300,
   "description": "Crispy chicken strips tossed in a spicy, tangy sauce with crunchy vegetables.",
   "image": "images/dragon_chicken.jpg",
@@ -1262,7 +1267,7 @@
 {
   "id": "st15",
   "name": "Kaadai Pepper Fry",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 280,
   "description": "Tender quail stir-fried with black pepper and traditional South Indian spices.",
   "image": "images/kaadai_pepper_fry.jpg",
@@ -1282,7 +1287,7 @@
 {
   "id": "st16",
   "name": "Kaadai 65 (2 Nos)",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 280,
   "description": "Crispy fried quail marinated in bold spices for a delicious South Indian specialty.",
   "image": "images/kaadai_65.jpg",
@@ -1302,7 +1307,7 @@
 {
   "id": "st17",
   "name": "Naatukozhi Pepper Fry",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 300,
   "description": "Country chicken stir-fried with crushed black pepper and aromatic spices for authentic flavour.",
   "image": "images/naatukozhi_pepper_fry.jpg",
@@ -1322,7 +1327,7 @@
 {
   "id": "st18",
   "name": "Chicken Manchurian (Dry/Semi Gravy)",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 300,
   "description": "Crispy chicken tossed in a rich Indo-Chinese sauce with bold savory flavours.",
   "image": "images/chicken_manchurian.jpg",
@@ -1342,7 +1347,7 @@
 {
   "id": "st19",
   "name": "Chilli Chicken (Dry/Semi Gravy)",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 300,
   "description": "Tender chicken cooked with capsicum and spicy chilli sauce for a classic favourite.",
   "image": "images/chilli_chicken.jpg",
@@ -1362,7 +1367,7 @@
 {
   "id": "st20",
   "name": "Garlic Chicken",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 280,
   "description": "Juicy chicken sautéed with roasted garlic and flavorful spices for a rich aromatic taste.",
   "image": "images/garlic_chicken.jpg",
@@ -1382,7 +1387,7 @@
 {
   "id": "st21",
   "name": "Anifa Chicken Roaster",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 280,
   "description": "House-special roasted chicken seasoned with signature spices and cooked until perfectly juicy.",
   "image": "images/anifa_chicken_roaster.jpg",
@@ -1402,7 +1407,7 @@
 {
   "id": "st22",
   "name": "Honey Garlic Chicken",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 280,
   "description": "Crispy chicken glazed with honey and roasted garlic for a perfect balance of sweet and savory.",
   "image": "images/honey_garlic_chicken.jpg",
@@ -1422,7 +1427,7 @@
 {
   "id": "st23",
   "name": "Fried Chicken (3 Leg Pieces)",
-  "category": "starters",
+  "category": "chicken_starters",
   "price": 270,
   "description": "Golden-fried chicken legs coated in seasoned batter for a crispy and juicy bite.",
   "image": "images/fried_chicken_leg_pieces.jpg",
@@ -1442,7 +1447,7 @@
 {
   "id": "st24",
   "name": "Tawa Fish Fry",
-  "category": "starters",
+  "category": "seafood_starters",
   "price": 350,
   "description": "Fresh fish marinated with aromatic spices and pan-seared on a hot tawa until perfectly crisp.",
   "image": "images/tawa_fish_fry.jpg",
@@ -1462,7 +1467,7 @@
 {
   "id": "st25",
   "name": "Fish 65",
-  "category": "starters",
+  "category": "seafood_starters",
   "price": 330,
   "description": "Boneless fish pieces coated in spicy masala and deep-fried until crispy and flavour-packed.",
   "image": "images/fish_65.jpg",
@@ -1482,7 +1487,7 @@
 {
   "id": "st26",
   "name": "Chilli Fish",
-  "category": "starters",
+  "category": "seafood_starters",
   "price": 330,
   "description": "Crispy fish tossed in a spicy chilli sauce with onions and capsicum for a bold Indo-Chinese flavour.",
   "image": "images/chilli_fish.jpg",
@@ -1502,7 +1507,7 @@
 {
   "id": "st27",
   "name": "Fish Finger",
-  "category": "starters",
+  "category": "seafood_starters",
   "price": 340,
   "description": "Golden-fried fish strips coated in seasoned breadcrumbs, offering a crispy outside and tender bite.",
   "image": "images/fish_finger.jpg",
@@ -1522,7 +1527,7 @@
 {
   "id": "st28",
   "name": "Nethili Fry",
-  "category": "starters",
+  "category": "seafood_starters",
   "price": 280,
   "description": "Fresh anchovies marinated in traditional spices and fried until crispy and irresistibly crunchy.",
   "image": "images/nethili_fry.jpg",
@@ -1542,7 +1547,7 @@
 {
   "id": "st29",
   "name": "Chilli Prawn",
-  "category": "starters",
+  "category": "seafood_starters",
   "price": 340,
   "description": "Juicy prawns stir-fried with chillies, onions, and capsicum in a spicy Indo-Chinese sauce.",
   "image": "images/chilli_prawn.jpg",
@@ -1562,7 +1567,7 @@
 {
   "id": "st30",
   "name": "Prawn 65",
-  "category": "starters",
+  "category": "seafood_starters",
   "price": 340,
   "description": "Crispy prawns coated in a spicy masala and deep-fried for a delicious South Indian favourite.",
   "image": "images/prawn_65.jpg",
@@ -1582,7 +1587,7 @@
 {
   "id": "st31",
   "name": "Prawn Pepper Fry",
-  "category": "starters",
+  "category": "seafood_starters",
   "price": 340,
   "description": "Succulent prawns tossed with freshly crushed black pepper and aromatic spices for a fiery finish.",
   "image": "images/prawn_pepper_fry.jpg",
@@ -1602,7 +1607,7 @@
 {
   "id": "st32",
   "name": "Prawn Varuval",
-  "category": "starters",
+  "category": "seafood_starters",
   "price": 340,
   "description": "Fresh prawns slow-roasted with South Indian spices and curry leaves for a rich, authentic flavour.",
   "image": "images/prawn_varuval.jpg",
@@ -1622,7 +1627,7 @@
 {
   "id": "st33",
   "name": "Crab Lollipop",
-  "category": "starters",
+  "category": "seafood_starters",
   "price": 350,
   "description": "Crispy crab meat shaped into lollipops and fried to perfection with aromatic seasonings.",
   "image": "images/crab_lollipop.jpg",
@@ -1642,7 +1647,7 @@
 {
   "id": "st34",
   "name": "Dynamic Prawn",
-  "category": "starters",
+  "category": "seafood_starters",
   "price": 360,
   "description": "Crispy prawns coated in a creamy, spicy signature sauce for a rich and irresistible seafood delight.",
   "image": "images/dynamic_prawn.jpg",
@@ -1662,7 +1667,7 @@
 {
   "id": "st35",
   "name": "Mushroom 65",
-  "category": "starters",
+  "category": "veg_starters",
   "price": 210,
   "description": "Crispy mushrooms coated in spicy South Indian seasoning and deep-fried to golden perfection.",
   "image": "images/mushroom_65.jpg",
@@ -1682,7 +1687,7 @@
 {
   "id": "st36",
   "name": "Paneer 65",
-  "category": "starters",
+  "category": "veg_starters",
   "price": 210,
   "description": "Soft paneer cubes coated in spicy masala and fried until crispy outside and tender inside.",
   "image": "images/paneer_65.jpg",
@@ -1702,7 +1707,7 @@
 {
   "id": "st37",
   "name": "Baby Corn 65",
-  "category": "starters",
+  "category": "veg_starters",
   "price": 180,
   "description": "Crunchy baby corn marinated with aromatic spices and deep-fried for a crispy, flavourful bite.",
   "image": "images/baby_corn_65.jpg",
@@ -1722,7 +1727,7 @@
 {
   "id": "st38",
   "name": "Paneer Tikka",
-  "category": "starters",
+  "category": "veg_starters",
   "price": 250,
   "description": "Soft paneer cubes marinated in spiced yogurt and grilled to smoky perfection in the tandoor.",
   "image": "images/paneer_tikka.jpg",
@@ -1742,7 +1747,7 @@
 {
   "id": "st39",
   "name": "Gobi 65",
-  "category": "starters",
+  "category": "veg_starters",
   "price": 180,
   "description": "Crispy cauliflower florets coated in spicy batter and fried until perfectly golden and crunchy.",
   "image": "images/gobi_65.jpg",
@@ -1762,7 +1767,7 @@
 {
   "id": "st40",
   "name": "Paneer Manchurian (Dry / Semi Gravy)",
-  "category": "starters",
+  "category": "veg_starters",
   "price": 260,
   "description": "Crispy paneer tossed in a savoury Indo-Chinese sauce with fresh vegetables and bold flavours.",
   "image": "images/paneer_manchurian.jpg",
@@ -1782,7 +1787,7 @@
 {
   "id": "st41",
   "name": "Mushroom Manchurian (Dry / Semi Gravy)",
-  "category": "starters",
+  "category": "veg_starters",
   "price": 230,
   "description": "Juicy mushrooms stir-fried in a spicy Indo-Chinese sauce with fresh vegetables and herbs.",
   "image": "images/mushroom_manchurian.jpg",
@@ -1802,7 +1807,7 @@
 {
   "id": "st42",
   "name": "Gobi Manchurian (Dry / Semi Gravy)",
-  "category": "starters",
+  "category": "veg_starters",
   "price": 230,
   "description": "Crispy cauliflower tossed in a tangy Indo-Chinese sauce with garlic and crunchy vegetables.",
   "image": "images/gobi_manchurian.jpg",
@@ -2408,8 +2413,8 @@
 },
 {
   "id": "j01",
-  "name": "Pista Milkshake",
-  "category": "juice",
+  "name": "Pista/Black Currant",
+  "category": "milk_shake",
   "price": 160,
   "description": "A rich and creamy milkshake blended with premium pistachios for a smooth, nutty flavour.",
   "image": "images/pista_milkshake.jpg",
@@ -2433,36 +2438,9 @@
   "prepTime": "10 min"
 },
 {
-  "id": "j02",
-  "name": "Black Currant Milkshake",
-  "category": "juice",
-  "price": 160,
-  "description": "A creamy milkshake infused with sweet and tangy black currant for a refreshing fruity taste.",
-  "image": "images/pista_milkshake.jpg",
-  "ingredients": [
-    "Milk",
-    "Black currant syrup",
-    "Ice cream",
-    "Sugar",
-    "Vanilla essence"
-  ],
-  "tags": [
-    "juice",
-    "milkshake",
-    "black currant",
-    "vegetarian",
-    "sweet",
-    "cold"
-  ],
-  "veg": true,
-  "available": true,
-  "spiceLevel": 0,
-  "prepTime": "10 min"
-},
-{
   "id": "j03",
   "name": "Butterscotch Milkshake",
-  "category": "juice",
+  "category": "milk_shake",
   "price": 160,
   "description": "Creamy milk blended with butterscotch for a delightfully smooth shake with caramel notes.",
   "image": "images/butterscotch_milkshake.jpg",
@@ -2489,7 +2467,7 @@
 {
   "id": "j04",
   "name": "Mango Milkshake",
-  "category": "juice",
+  "category": "milk_shake",
   "price": 160,
   "description": "Fresh ripe mangoes blended with chilled milk into a naturally sweet and refreshing drink.",
   "image": "images/mango_milkshake.jpg",
@@ -2516,7 +2494,7 @@
 {
   "id": "j05",
   "name": "Strawberry Milkshake",
-  "category": "juice",
+  "category": "milk_shake",
   "price": 160,
   "description": "Juicy strawberries blended with creamy milk for a refreshing and fruity milkshake.",
   "image": "images/strawberry_milkshake.jpg",
@@ -2543,7 +2521,7 @@
 {
   "id": "j06",
   "name": "Vanilla Milkshake",
-  "category": "juice",
+  "category": "milk_shake",
   "price": 160,
   "description": "A classic creamy milkshake with the smooth and comforting flavour of premium vanilla.",
   "image": "images/vanilla_milkshake.jpg",
@@ -2570,7 +2548,7 @@
 {
   "id": "j07",
   "name": "Chocolate Milkshake",
-  "category": "juice",
+  "category": "milk_shake",
   "price": 160,
   "description": "Rich chocolate blended with chilled milk into a thick, creamy shake loved by every chocolate lover.",
   "image": "images/chocolate_milkshake.jpg",
@@ -3162,7 +3140,7 @@
 {
   "id": "ic01",
   "name": "Strawberry",
-  "category": "dessert",
+  "category": "ice_cream",
   "price": 130,
   "description": "Creamy strawberry ice cream with a delightful fruity sweetness in every scoop.",
   "image": "images/strawberry_ice_cream.jpg",
@@ -3188,7 +3166,7 @@
 {
   "id": "ic02",
   "name": "Vanilla / Mango",
-  "category": "dessert",
+  "category": "ice_cream",
   "price": 130,
   "description": "Smooth and creamy ice cream available in classic vanilla or tropical mango flavour.",
   "image": "images/vanilla_mango_ice_cream.jpg",
@@ -3215,7 +3193,7 @@
 {
   "id": "ic03",
   "name": "Butter Scotch",
-  "category": "dessert",
+  "category": "ice_cream",
   "price": 140,
   "description": "Rich butterscotch ice cream loaded with crunchy caramel bits for extra indulgence.",
   "image": "images/butterscotch_ice_cream.jpg",
@@ -3241,7 +3219,7 @@
 {
   "id": "ic04",
   "name": "Chocolate / Pista",
-  "category": "dessert",
+  "category": "ice_cream",
   "price": 140,
   "description": "Creamy ice cream available in rich chocolate or nutty pista flavour.",
   "image": "images/chocolate_pista_ice_cream.jpg",
@@ -3268,7 +3246,7 @@
 {
   "id": "ic05",
   "name": "Black Current",
-  "category": "dessert",
+  "category": "ice_cream",
   "price": 140,
   "description": "Creamy black currant ice cream with sweet berry flavours and a refreshing finish.",
   "image": "images/black_current_ice_cream.jpg",
