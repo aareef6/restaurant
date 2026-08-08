@@ -1,181 +1,75 @@
 {
   "restaurant": {
-    "name": "Copper & Clove",
+    "name": "Anifa Biryani",
     "tagline": "Modern kitchen, honest ingredients",
-    "address": "42 Lantern Street, Riverside District, Bengaluru 560001",
-    "phone": "+91 98765 43210",
-    "whatsapp": "919876543210",
-    "email": "hello@copperandclove.in",
+    "address": "KPS Tower, near New Bus Stand Road, Sungu Pettai, Perambalur, Tamil Nadu 621220",
+    "phone": "+91 90477 67677",
+    "whatsapp": "+91 90477 67677",
+    "email": "anifabiriyani.suvaifoods@gmail.com",
     "hours": [
-      { "days": "Monday – Friday", "time": "12:00 PM – 11:00 PM" },
-      { "days": "Saturday – Sunday", "time": "11:00 AM – 11:30 PM" }
+      { "days": "Sunday – Saturday", "time": "11:00 AM – 10:30 PM" }
     ],
-    "mapEmbed": "https://www.google.com/maps?q=Bengaluru&output=embed",
+    "mapEmbed": "https://www.google.com/maps?q=ANIFA+BIRIYANI,+Perambalur,+Tamil+Nadu&output=embed",
     "social": {
-      "facebook": "https://facebook.com/",
-      "instagram": "https://instagram.com/"
+      "facebook": "https://www.facebook.com/people/Anifa-Biriyani-Suvai-Foods/61552673428927/?rdid=nfFQhFD8AFbkcOjq&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GmGBPtRuQ%2F",
+      "instagram": "https://www.instagram.com/anifa_biriyani_perambalur?utm_source=qr&igsh=MXQ3aWhzdXA1ZjI5dQ%3D%3D",
+      "whatsapp": "919047767677"
     }
   },
   "categories": [
     { "id": "starters", "label": "Starters", "icon": "starter" },
     { "id": "soups", "label": "Soups", "icon": "soup" },
-    { "id": "main-course", "label": "Main Course", "icon": "main" },
     { "id": "biryani", "label": "Biryani", "icon": "biryani" },
-    { "id": "fried-rice", "label": "Fried Rice", "icon": "rice" },
+    { "id": "bucket-biryani", "label": "Bucket Biryani", "icon": "bucket" },
+    { "id": "mutton_gravy", "label": "Mutton gravy", "icon": "mutton_gravy" },
+    { "id": "checken_gravy", "label": "Checken gravy", "icon": "checken_gravy" },
+    { "id": "seafood_gravy", "label": "Seafood gravy", "icon": "seafood_gravy" },
+    { "id": "fried_rice", "label": "Fried Rice", "icon": "rice" },
     { "id": "noodles", "label": "Noodles", "icon": "noodles" },
-    { "id": "pizza", "label": "Pizza", "icon": "pizza" },
-    { "id": "burgers", "label": "Burgers", "icon": "burger" },
-    { "id": "beverages", "label": "Beverages", "icon": "drink" },
-    { "id": "desserts", "label": "Desserts", "icon": "dessert" }
+    { "id": "porotta", "label": "Porotta", "icon": "porotta" },
+    { "id": "egg_dish", "label": "Egg Dish", "icon": "egg_dish" },
+    { "id": "tandoori-bread", "label": "Tandoori Bread", "icon": "tandoori-bread" },
+    { "id": "indian-veg-rice", "label": "Indian Veg Rice", "icon": "indian-veg-rice" },
+    { "id": "tandoori", "label": "Tandoori", "icon": "tandoori" },
+    { "id": "juice", "label": "Beverages", "icon": "juice" },
+    { "id": "dessert", "label": "Dessert", "icon": "dessert" }
   ],
   "items": [
     {
-      "id": "s01",
-      "name": "Charred Corn & Chili Tikki",
-      "category": "starters",
-      "price": 220,
-      "description": "Smoky grilled corn patties with green chili and coriander, served with tamarind dip.",
-      "image": "images/starter-corn-tikki.svg",
-      "ingredients": ["Sweet corn", "Potato", "Green chili", "Coriander", "Bread crumbs", "Tamarind chutney"],
-      "tags": ["starters", "spicy", "vegetarian", "popular"],
-      "veg": true,
-      "available": true,
-      "spiceLevel": 2,
-      "prepTime": "12 min"
-    },
-    {
-      "id": "s02",
-      "name": "Tandoori Chicken Skewers",
-      "category": "starters",
-      "price": 340,
-      "description": "Yogurt-marinated chicken thigh, char-grilled over an open flame with mint chutney.",
-      "image": "images/starter-tandoori-skewer.svg",
-      "ingredients": ["Chicken thigh", "Yogurt", "Kashmiri chili", "Ginger-garlic", "Mint chutney"],
-      "tags": ["starters", "grilled", "non-vegetarian", "popular"],
+      "id": "b01",
+      "name": "Chicken Biryani",
+      "category": "biryani",
+      "price": 250,
+      "description": "Succulent chicken pieces layered with fragrant basmati rice, slow dum-cooked for rich, aromatic flavour.",
+      "image": "images/biryani-hyderabadi-chicken.jpeg",
+      "ingredients": ["Basmati rice", "Chicken", "Fried onion", "Yogurt", "Whole spices"],
+      "tags": ["biryani", "non-vegetarian", "popular", "spicy"],
       "veg": false,
-      "available": true,
-      "spiceLevel": 3,
-      "prepTime": "18 min"
-    },
-    {
-      "id": "s03",
-      "name": "Crispy Paneer 65",
-      "category": "starters",
-      "price": 260,
-      "description": "Cubes of paneer tossed in a fiery curry-leaf batter, finished with fried garlic.",
-      "image": "images/starter-paneer65.svg",
-      "ingredients": ["Paneer", "Curry leaves", "Red chili", "Yogurt", "Corn flour"],
-      "tags": ["starters", "spicy", "vegetarian"],
-      "veg": true,
       "available": true,
       "spiceLevel": 3,
       "prepTime": "15 min"
     },
     {
-      "id": "so01",
-      "name": "Roasted Tomato & Basil Soup",
-      "category": "soups",
-      "price": 180,
-      "description": "Slow-roasted tomatoes blended smooth with fresh basil and a swirl of cream.",
-      "image": "images/soup-tomato-basil.svg",
-      "ingredients": ["Tomato", "Basil", "Cream", "Garlic", "Olive oil"],
-      "tags": ["soups", "vegetarian", "comfort"],
-      "veg": true,
-      "available": true,
-      "spiceLevel": 1,
-      "prepTime": "10 min"
-    },
-    {
-      "id": "so02",
-      "name": "Hot & Sour Chicken Soup",
-      "category": "soups",
-      "price": 200,
-      "description": "A bold broth of shredded chicken, mushroom and pepper with a tangy vinegar edge.",
-      "image": "images/soup-hot-sour.svg",
-      "ingredients": ["Chicken", "Mushroom", "Bell pepper", "Vinegar", "White pepper"],
-      "tags": ["soups", "spicy", "non-vegetarian"],
-      "veg": false,
-      "available": true,
-      "spiceLevel": 2,
-      "prepTime": "12 min"
-    },
-    {
-      "id": "m01",
-      "name": "Butter Chicken",
-      "category": "main-course",
-      "price": 420,
-      "description": "Slow-simmered tomato and butter gravy with tandoor-roasted chicken, finished with cream.",
-      "image": "images/main-butter-chicken.svg",
-      "ingredients": ["Chicken", "Tomato", "Butter", "Cashew", "Kasuri methi"],
-      "tags": ["main-course", "non-vegetarian", "popular", "creamy"],
-      "veg": false,
-      "available": true,
-      "spiceLevel": 2,
-      "prepTime": "22 min"
-    },
-    {
-      "id": "m02",
-      "name": "Paneer Lababdar",
-      "category": "main-course",
-      "price": 360,
-      "description": "Soft paneer cubes in a velvety cashew-tomato gravy, lightly spiced.",
-      "image": "images/main-paneer-lababdar.svg",
-      "ingredients": ["Paneer", "Tomato", "Cashew", "Cream", "Garam masala"],
-      "tags": ["main-course", "vegetarian", "creamy"],
-      "veg": true,
-      "available": true,
-      "spiceLevel": 1,
-      "prepTime": "20 min"
-    },
-    {
-      "id": "m03",
-      "name": "Dal Makhani",
-      "category": "main-course",
-      "price": 280,
-      "description": "Black lentils simmered overnight with butter, cream and a whisper of smoke.",
-      "image": "images/main-dal-makhani.svg",
-      "ingredients": ["Black lentil", "Kidney beans", "Butter", "Cream", "Tomato"],
-      "tags": ["main-course", "vegetarian", "comfort", "popular"],
-      "veg": true,
-      "available": true,
-      "spiceLevel": 1,
-      "prepTime": "20 min"
-    },
-    {
-      "id": "b01",
-      "name": "Hyderabadi Chicken Biryani",
+      "id": "b02",
+      "name": "Chicken Mughal Biriyani",
       "category": "biryani",
-      "price": 380,
-      "description": "Fragrant basmati layered with marinated chicken, saffron and fried onion, dum-cooked.",
-      "image": "images/biryani-hyderabadi-chicken.svg",
-      "ingredients": ["Basmati rice", "Chicken", "Saffron", "Fried onion", "Mint"],
+      "price": 300,
+      "description": "Tender chicken cooked with aromatic basmati rice, saffron, and rich Mughal spices for a royal taste.",
+      "image": "images/chicken_mugal_biriyani.jpeg",
+      "ingredients": ["Basmati rice", "Chicken, Saffron", "Yogurt", "Whole spices"],
       "tags": ["biryani", "non-vegetarian", "popular", "spicy"],
       "veg": false,
       "available": true,
       "spiceLevel": 3,
-      "prepTime": "25 min"
-    },
-    {
-      "id": "b02",
-      "name": "Vegetable Dum Biryani",
-      "category": "biryani",
-      "price": 300,
-      "description": "Seasonal vegetables and basmati rice, layered and slow-cooked with whole spices.",
-      "image": "images/biryani-veg-dum.svg",
-      "ingredients": ["Basmati rice", "Mixed vegetables", "Saffron", "Whole spices", "Mint"],
-      "tags": ["biryani", "vegetarian"],
-      "veg": true,
-      "available": true,
-      "spiceLevel": 2,
-      "prepTime": "22 min"
+      "prepTime": "15 min"
     },
     {
       "id": "b03",
       "name": "Mutton Biryani",
       "category": "biryani",
-      "price": 460,
+      "price": 350,
       "description": "Tender mutton pieces layered with long-grain rice, slow dum-cooked for depth of flavour.",
-      "image": "images/biryani-mutton.svg",
+      "image": "images/mutton_biriyani.jpeg",
       "ingredients": ["Basmati rice", "Mutton", "Saffron", "Fried onion", "Whole spices"],
       "tags": ["biryani", "non-vegetarian", "spicy"],
       "veg": false,
@@ -184,200 +78,3917 @@
       "prepTime": "30 min"
     },
     {
-      "id": "fr01",
-      "name": "Schezwan Fried Rice",
-      "category": "fried-rice",
-      "price": 240,
-      "description": "Wok-tossed rice with a punchy Schezwan chili sauce, spring onion and garlic.",
-      "image": "images/fried-rice-schezwan.svg",
-      "ingredients": ["Rice", "Schezwan sauce", "Spring onion", "Garlic", "Bell pepper"],
-      "tags": ["fried-rice", "spicy", "vegetarian"],
-      "veg": true,
-      "available": true,
-      "spiceLevel": 3,
-      "prepTime": "14 min"
-    },
-    {
-      "id": "fr02",
-      "name": "Chicken Fried Rice",
-      "category": "fried-rice",
-      "price": 280,
-      "description": "Classic wok-fried rice with diced chicken, egg ribbons and soy.",
-      "image": "images/fried-rice-chicken.svg",
-      "ingredients": ["Rice", "Chicken", "Egg", "Soy sauce", "Spring onion"],
-      "tags": ["fried-rice", "non-vegetarian"],
-      "veg": false,
-      "available": true,
-      "spiceLevel": 1,
-      "prepTime": "15 min"
-    },
-    {
-      "id": "n01",
-      "name": "Veg Hakka Noodles",
-      "category": "noodles",
-      "price": 230,
-      "description": "Stir-fried noodles with julienned vegetables, tossed in soy and sesame oil.",
-      "image": "images/noodles-hakka-veg.svg",
-      "ingredients": ["Noodles", "Cabbage", "Carrot", "Bell pepper", "Soy sauce"],
-      "tags": ["noodles", "vegetarian"],
-      "veg": true,
-      "available": true,
-      "spiceLevel": 1,
-      "prepTime": "13 min"
-    },
-    {
-      "id": "n02",
-      "name": "Chili Garlic Prawn Noodles",
-      "category": "noodles",
-      "price": 340,
-      "description": "Wok-charred noodles with plump prawns, fresh chili and roasted garlic.",
-      "image": "images/noodles-chili-garlic-prawn.svg",
-      "ingredients": ["Noodles", "Prawn", "Garlic", "Red chili", "Spring onion"],
-      "tags": ["noodles", "non-vegetarian", "spicy", "popular"],
-      "veg": false,
-      "available": true,
-      "spiceLevel": 3,
-      "prepTime": "16 min"
-    },
-    {
-      "id": "p01",
-      "name": "Margherita Pizza",
-      "category": "pizza",
-      "price": 320,
-      "description": "San Marzano tomato, fresh mozzarella and basil on a thin hand-stretched crust.",
-      "image": "images/pizza-margherita.svg",
-      "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella", "Basil", "Olive oil"],
-      "tags": ["pizza", "vegetarian", "popular"],
-      "veg": true,
-      "available": true,
-      "spiceLevel": 1,
-      "prepTime": "18 min"
-    },
-    {
-      "id": "p02",
-      "name": "Smoked Chicken Tikka Pizza",
-      "category": "pizza",
+      "id": "b04",
+      "name": "Mutton Mughal Biriyani",
+      "category": "biryani",
       "price": 400,
-      "description": "Tandoori chicken tikka, red onion and mint drizzle on a smoky tomato base.",
-      "image": "images/pizza-chicken-tikka.svg",
-      "ingredients": ["Pizza dough", "Chicken tikka", "Mozzarella", "Red onion", "Mint drizzle"],
-      "tags": ["pizza", "non-vegetarian", "spicy"],
+      "description": "Juicy mutton simmered with fragrant basmati rice, saffron, and aromatic spices in authentic Mughal style.",
+      "image": "images/mutton_mughal_biriyani.jpeg",
+      "ingredients": ["Basmati rice", "Mutton", "Saffron", "Ghee", "Whole spices"],
+      "tags": ["biryani", "non-vegetarian", "spicy"],
       "veg": false,
       "available": true,
-      "spiceLevel": 2,
-      "prepTime": "20 min"
+      "spiceLevel": 3,
+      "prepTime": "30 min"
     },
-    {
-      "id": "bu01",
-      "name": "Smoky BBQ Chicken Burger",
-      "category": "burgers",
-      "price": 260,
-      "description": "Grilled chicken thigh, smoked BBQ glaze, pickles and slaw in a toasted brioche bun.",
-      "image": "images/burger-bbq-chicken.svg",
-      "ingredients": ["Chicken thigh", "BBQ sauce", "Brioche bun", "Pickles", "Slaw"],
-      "tags": ["burgers", "non-vegetarian", "popular"],
+     {
+      "id": "b05",
+      "name": "Prawn Biriyani",
+      "category": "biryani",
+      "price": 350,
+      "description": "Fresh prawns cooked with aromatic basmati rice and traditional spices for a perfectly balanced seafood delight., saffron, and aromatic spices in authentic Mughal style.",
+      "image": "images/prawn_biriyani.jpeg",
+      "ingredients": ["Basmati rice", "Prawns", "Fried onion", "Whole spices", "Coriander"],
+      "tags": ["biryani", "non-vegetarian", "spicy"],
       "veg": false,
       "available": true,
-      "spiceLevel": 1,
-      "prepTime": "16 min"
+      "spiceLevel": 3,
+      "prepTime": "30 min"
     },
     {
-      "id": "bu02",
-      "name": "Crispy Veg Burger",
-      "category": "burgers",
-      "price": 210,
-      "description": "Crumb-fried vegetable patty, cheddar, lettuce and chipotle mayo.",
-      "image": "images/burger-crispy-veg.svg",
-      "ingredients": ["Vegetable patty", "Cheddar", "Lettuce", "Chipotle mayo", "Bun"],
-      "tags": ["burgers", "vegetarian"],
-      "veg": true,
+      "id": "b06",
+      "name": "Chicken 65 Biriyani",
+      "category": "biryani",
+      "price": 310,
+      "description": "Spicy Chicken 65 layered with fragrant basmati rice, creating a bold and flavourful biriyani experience.",
+      "image": "images/chicken_65_biriyani.jpeg",
+      "ingredients": ["Basmati rice", "Chicken 65", "Curry leaves", "Yogurt", "Whole spices"],
+      "tags": ["biryani", "non-vegetarian", "spicy"],
+      "veg": false,
       "available": true,
-      "spiceLevel": 1,
-      "prepTime": "14 min"
+      "spiceLevel": 3,
+      "prepTime": "30 min"
     },
     {
-      "id": "d01",
-      "name": "Fresh Lime Soda",
-      "category": "beverages",
-      "price": 120,
-      "description": "Fresh lime juice with soda, served sweet, salted or mixed, over crushed ice.",
-      "image": "images/drink-lime-soda.svg",
-      "ingredients": ["Lime", "Soda", "Mint", "Sugar", "Rock salt"],
-      "tags": ["beverages", "vegetarian", "refreshing"],
-      "veg": true,
-      "available": true,
-      "spiceLevel": 0,
-      "prepTime": "5 min"
-    },
-    {
-      "id": "d02",
-      "name": "Cold Coffee with Ice Cream",
-      "category": "beverages",
-      "price": 180,
-      "description": "Chilled espresso blended with milk and a scoop of vanilla ice cream.",
-      "image": "images/drink-cold-coffee.svg",
-      "ingredients": ["Espresso", "Milk", "Vanilla ice cream", "Sugar"],
-      "tags": ["beverages", "vegetarian", "popular"],
-      "veg": true,
-      "available": true,
-      "spiceLevel": 0,
-      "prepTime": "6 min"
-    },
-    {
-      "id": "d03",
-      "name": "Watermelon Mint Cooler",
-      "category": "beverages",
-      "price": 150,
-      "description": "Cold-pressed watermelon juice with fresh mint and a hint of lime.",
-      "image": "images/drink-watermelon-cooler.svg",
-      "ingredients": ["Watermelon", "Mint", "Lime", "Honey"],
-      "tags": ["beverages", "vegetarian", "refreshing"],
-      "veg": true,
-      "available": true,
-      "spiceLevel": 0,
-      "prepTime": "5 min"
-    },
-    {
-      "id": "de01",
-      "name": "Molten Chocolate Lava Cake",
-      "category": "desserts",
-      "price": 220,
-      "description": "Warm dark chocolate cake with a molten centre, served with vanilla ice cream.",
-      "image": "images/dessert-lava-cake.svg",
-      "ingredients": ["Dark chocolate", "Butter", "Egg", "Flour", "Vanilla ice cream"],
-      "tags": ["desserts", "vegetarian", "popular"],
-      "veg": true,
-      "available": true,
-      "spiceLevel": 0,
-      "prepTime": "16 min"
-    },
-    {
-      "id": "de02",
-      "name": "Gulab Jamun with Rabri",
-      "category": "desserts",
-      "price": 180,
-      "description": "Soft milk-solid dumplings soaked in saffron syrup, served with thickened milk.",
-      "image": "images/dessert-gulab-jamun.svg",
-      "ingredients": ["Khoya", "Sugar syrup", "Saffron", "Rabri"],
-      "tags": ["desserts", "vegetarian"],
-      "veg": true,
-      "available": true,
-      "spiceLevel": 0,
-      "prepTime": "8 min"
-    },
-    {
-      "id": "de03",
-      "name": "Belgian Chocolate Mousse",
-      "category": "desserts",
-      "price": 240,
-      "description": "Airy dark chocolate mousse layered with cocoa crumble.",
-      "image": "images/dessert-mousse.svg",
-      "ingredients": ["Belgian chocolate", "Cream", "Egg", "Cocoa crumble"],
-      "tags": ["desserts", "vegetarian"],
-      "veg": true,
-      "available": false,
-      "spiceLevel": 0,
-      "prepTime": "10 min"
-    }
+  "id": "b07",
+  "name": "Naatukozhi Biriyani",
+  "category": "biryani",
+  "price": 340,
+  "description": "Country chicken slow-cooked with aromatic basmati rice and traditional spices for a rustic, homestyle flavour.",
+  "image": "images/naatukozhi_biriyani.jpeg",
+  "ingredients": [
+    "Basmati rice",
+    "Country chicken",
+    "Shallots",
+    "Whole spices",
+    "Curry leaves"
+  ],
+  "tags": ["biryani", "non-vegetarian", "country chicken", "spicy"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "30 min"
+},
+{
+  "id": "b08",
+  "name": "Egg Biriyani",
+  "category": "biryani",
+  "price": 230,
+  "description": "Perfectly boiled eggs layered with fragrant basmati rice and aromatic spices for a comforting classic.",
+  "image": "images/egg_biriyani.jpeg",
+  "ingredients": [
+    "Basmati rice",
+    "Eggs",
+    "Fried onion",
+    "Whole spices",
+    "Coriander"
+  ],
+  "tags": ["biryani", "egg", "popular", "spicy"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "15 min"
+},
+{
+  "id": "b09",
+  "name": "Kushka",
+  "category": "biryani",
+  "price": 200,
+  "description": "Fragrant basmati rice slow-cooked with aromatic spices and herbs, delivering rich biriyani flavours without meat.",
+  "image": "images/kushka.jpeg",
+  "ingredients": [
+    "Basmati rice",
+    "Ghee",
+    "Whole spices",
+    "Mint",
+    "Coriander"
+  ],
+  "tags": ["biryani", "rice", "mild"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 1,
+  "prepTime": "10 min"
+},
+{
+  "id": "bb01",
+  "name": "Mini Chicken Bucket Biriyani (3 Persons)",
+  "category": "bucket-biryani",
+  "price": 900,
+  "description": "Generous serving of tender chicken biriyani, dum-cooked with fragrant basmati rice, perfect for sharing.",
+  "image": "images/mini_chicken_bucket_biriyani.jpeg",
+  "ingredients": [
+    "Basmati rice",
+    "Chicken",
+    "Fried onion",
+    "Yogurt",
+    "Whole spices"
+  ],
+  "tags": ["bucket biriyani", "non-vegetarian", "chicken", "sharing"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "30 min"
+},
+{
+  "id": "bb02",
+  "name": "Chicken Bucket Biriyani (5 Persons)",
+  "category": "bucket-biryani",
+  "price": 1400,
+  "description": "A family-sized chicken biriyani packed with juicy chicken, aromatic rice, and authentic dum-cooked flavours.",
+  "image": "images/chicken_bucket_biriyani_5p.jpeg",
+  "ingredients": [
+    "Basmati rice",
+    "Chicken",
+    "Fried onion",
+    "Yogurt",
+    "Whole spices"
+  ],
+  "tags": ["bucket biriyani", "non-vegetarian", "chicken", "family pack"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "45 min"
+},
+{
+  "id": "bb03",
+  "name": "Chicken Bucket Biriyani (10 Persons)",
+  "category": "bucket-biryani",
+  "price": 2600,
+  "description": "A grand feast of flavourful chicken biriyani, expertly prepared with premium ingredients for larger gatherings.",
+  "image": "images/chicken_bucket_biriyani_10p.jpeg",
+  "ingredients": [
+    "Basmati rice",
+    "Chicken",
+    "Fried onion",
+    "Yogurt",
+    "Whole spices"
+  ],
+  "tags": ["bucket biriyani", "non-vegetarian", "chicken", "party pack"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "60 min"
+},
+{
+  "id": "bb04",
+  "name": "Mini Mutton Bucket Biriyani (3 Persons)",
+  "category": "bucket-biryani",
+  "price": 1200,
+  "description": "Tender mutton and fragrant basmati rice slow-cooked together for a rich, satisfying meal to share.",
+  "image": "images/mini_mutton_bucket_biriyani.jpeg",
+  "ingredients": [
+    "Basmati rice",
+    "Mutton",
+    "Fried onion",
+    "Saffron",
+    "Whole spices"
+  ],
+  "tags": ["bucket biriyani", "non-vegetarian", "mutton", "sharing"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "45 min"
+},
+{
+  "id": "bb05",
+  "name": "Mutton Bucket Biriyani (5 Persons)",
+  "category": "bucket-biryani",
+  "price": 1900,
+  "description": "A hearty bucket of succulent mutton biriyani, layered with aromatic rice and traditional spices.",
+  "image": "images/mutton_bucket_biriyani_5p.jpeg",
+  "ingredients": [
+    "Basmati rice",
+    "Mutton",
+    "Fried onion",
+    "Saffron",
+    "Whole spices"
+  ],
+  "tags": ["bucket biriyani", "non-vegetarian", "mutton", "family pack"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "60 min"
+},
+{
+  "id": "bb06",
+  "name": "Mutton Bucket Biriyani (10 Persons)",
+  "category": "bucket-biryani",
+  "price": 3500,
+  "description": "A celebration-sized mutton biriyani featuring tender meat, fragrant rice, and authentic dum-cooked goodness.",
+  "image": "images/mutton_bucket_biriyani_10p.jpeg",
+  "ingredients": [
+    "Basmati rice",
+    "Mutton",
+    "Saffron",
+    "Fried onion",
+    "Whole spices"
+  ],
+  "tags": ["bucket biriyani", "non-vegetarian", "mutton", "party pack"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "75 min"
+},
+{
+  "id": "mg01",
+  "name": "Mutton Pepper Masala",
+  "category": "mutton_gravy",
+  "price": 360,
+  "description": "Tender mutton simmered in a rich pepper-infused gravy with aromatic spices for a bold, comforting flavour.",
+  "image": "images/mutton_pepper_masala.jpg",
+  "ingredients": [
+    "Mutton",
+    "Black pepper",
+    "Onion",
+    "Ginger-garlic paste",
+    "Whole spices"
+  ],
+  "tags": ["mutton", "pepper", "spicy", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "30 min"
+},
+{
+  "id": "mg02",
+  "name": "Mutton Masala",
+  "category": "mutton_gravy",
+  "price": 360,
+  "description": "Succulent mutton slow-cooked in a rich onion and tomato gravy blended with traditional Indian spices.",
+  "image": "images/mutton_masala.jpg",
+  "ingredients": [
+    "Mutton",
+    "Onion",
+    "Tomato",
+    "Ginger-garlic paste",
+    "Garam masala"
+  ],
+  "tags": ["mutton", "masala", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "30 min"
+},
+{
+  "id": "mg03",
+  "name": "Hyderabadi Mutton",
+  "category": "mutton_gravy",
+  "price": 360,
+  "description": "Juicy mutton cooked in an authentic Hyderabadi-style gravy with fragrant spices and a rich, royal taste.",
+  "image": "images/hyderabadi_mutton.jpg",
+  "ingredients": [
+    "Mutton",
+    "Yogurt",
+    "Fried onion",
+    "Whole spices",
+    "Mint"
+  ],
+  "tags": ["mutton", "hyderabadi", "non-vegetarian", "popular"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "35 min"
+},
+{
+  "id": "mg04",
+  "name": "Mutton Chettinad",
+  "category": "mutton_gravy",
+  "price": 360,
+  "description": "Tender mutton simmered in a spicy Chettinad gravy with freshly roasted spices and aromatic curry leaves.",
+  "image": "images/mutton_chettinad.jpg",
+  "ingredients": [
+    "Mutton",
+    "Shallots",
+    "Curry leaves",
+    "Black pepper",
+    "Fennel seeds"
+  ],
+  "tags": ["mutton", "chettinad", "spicy", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 5,
+  "prepTime": "35 min"
+},
+{
+  "id": "mg05",
+  "name": "Mutton Rogan Josh",
+  "category": "mutton_gravy",
+  "price": 360,
+  "description": "Slow-cooked mutton in a rich Kashmiri-style gravy infused with aromatic spices and a velvety finish.",
+  "image": "images/mutton_rogan_josh.jpg",
+  "ingredients": [
+    "Mutton",
+    "Yogurt",
+    "Kashmiri chilli",
+    "Fennel powder",
+    "Whole spices"
+  ],
+  "tags": ["mutton", "rogan josh", "kashmiri", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "40 min"
+},
+{
+  "id": "mg06",
+  "name": "Kadai Mutton",
+  "category": "mutton_gravy",
+  "price": 360,
+  "description": "Tender mutton cooked with capsicum, onions, and freshly ground spices in a classic kadai-style gravy.",
+  "image": "images/kadai_mutton.jpg",
+  "ingredients": [
+    "Mutton",
+    "Capsicum",
+    "Onion",
+    "Tomato",
+    "Kadai masala"
+  ],
+  "tags": ["mutton", "kadai", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "35 min"
+},
+{
+  "id": "mg07",
+  "name": "Punjabi Mutton",
+  "category": "mutton_gravy",
+  "price": 360,
+  "description": "Succulent mutton simmered in a rich Punjabi-style gravy with butter, tomatoes, and aromatic spices.",
+  "image": "images/punjabi_mutton.jpg",
+  "ingredients": [
+    "Mutton",
+    "Tomato",
+    "Butter",
+    "Onion",
+    "Garam masala"
+  ],
+  "tags": ["mutton", "punjabi", "buttery", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "35 min"
+},
+{
+  "id": "cg01",
+  "name": "Anifa Chicken Gravy",
+  "category": "chicken_gravy",
+  "price": 320,
+  "description": "Tender chicken simmered in a signature house gravy with aromatic spices for a rich, comforting flavour.",
+  "image": "images/anifa_chicken_gravy.jpg",
+  "ingredients": [
+    "Chicken",
+    "Onion",
+    "Tomato",
+    "Ginger-garlic paste",
+    "Whole spices"
+  ],
+  "tags": ["chicken", "gravy", "signature", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "25 min"
+},
+{
+  "id": "cg02",
+  "name": "Kaadai Masala",
+  "category": "chicken_gravy",
+  "price": 320,
+  "description": "Tender quail cooked in a rich masala gravy infused with traditional South Indian spices.",
+  "image": "images/kaadai_masala.jpg",
+  "ingredients": [
+    "Quail",
+    "Onion",
+    "Tomato",
+    "Black pepper",
+    "Whole spices"
+  ],
+  "tags": ["quail", "masala", "south indian", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "30 min"
+},
+{
+  "id": "cg03",
+  "name": "Naatukozhi Masala",
+  "category": "chicken_gravy",
+  "price": 320,
+  "description": "Country chicken slow-cooked in a spicy masala gravy with authentic village-style flavours.",
+  "image": "images/naatukozhi_masala.jpg",
+  "ingredients": [
+    "Country chicken",
+    "Shallots",
+    "Tomato",
+    "Curry leaves",
+    "Whole spices"
+  ],
+  "tags": ["country chicken", "masala", "spicy", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "35 min"
+},
+{
+  "id": "cg04",
+  "name": "Chicken Masala",
+  "category": "chicken_gravy",
+  "price": 290,
+  "description": "Juicy chicken cooked in a flavourful onion and tomato gravy blended with aromatic Indian spices.",
+  "image": "images/chicken_masala.jpg",
+  "ingredients": [
+    "Chicken",
+    "Onion",
+    "Tomato",
+    "Ginger-garlic paste",
+    "Garam masala"
+  ],
+  "tags": ["chicken", "masala", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "25 min"
+},
+{
+  "id": "cg05",
+  "name": "Chicken Rogan Josh",
+  "category": "chicken_gravy",
+  "price": 300,
+  "description": "Tender chicken simmered in a rich Kashmiri-style gravy with fragrant spices and a velvety finish.",
+  "image": "images/chicken_rogan_josh.jpg",
+  "ingredients": [
+    "Chicken",
+    "Yogurt",
+    "Kashmiri chilli",
+    "Fennel powder",
+    "Whole spices"
+  ],
+  "tags": ["chicken", "rogan josh", "kashmiri", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "30 min"
+},
+{
+  "id": "cg06",
+  "name": "Kadai Chicken Masala",
+  "category": "chicken_gravy",
+  "price": 290,
+  "description": "Succulent chicken cooked with onions, capsicum, and freshly ground spices in a classic kadai-style gravy.",
+  "image": "images/kadai_chicken_masala.jpg",
+  "ingredients": [
+    "Chicken",
+    "Capsicum",
+    "Onion",
+    "Tomato",
+    "Kadai masala"
+  ],
+  "tags": ["chicken", "kadai", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "30 min"
+},
+{
+  "id": "cg07",
+  "name": "Chicken Chettinad",
+  "category": "chicken_gravy",
+  "price": 290,
+  "description": "Tender chicken cooked in a spicy Chettinad gravy with roasted spices and fragrant curry leaves.",
+  "image": "images/chicken_chettinad.jpg",
+  "ingredients": [
+    "Chicken",
+    "Shallots",
+    "Curry leaves",
+    "Black pepper",
+    "Fennel seeds"
+  ],
+  "tags": ["chicken", "chettinad", "spicy", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 5,
+  "prepTime": "30 min"
+},
+{
+  "id": "cg08",
+  "name": "Punjabi Chicken",
+  "category": "chicken_gravy",
+  "price": 300,
+  "description": "Juicy chicken simmered in a rich Punjabi-style gravy with butter, tomatoes, and aromatic spices.",
+  "image": "images/punjabi_chicken.jpg",
+  "ingredients": [
+    "Chicken",
+    "Tomato",
+    "Butter",
+    "Onion",
+    "Garam masala"
+  ],
+  "tags": ["chicken", "punjabi", "buttery", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "30 min"
+},
+{
+  "id": "cg09",
+  "name": "Hyderabadi Chicken",
+  "category": "chicken_gravy",
+  "price": 300,
+  "description": "Succulent chicken cooked in an authentic Hyderabadi gravy with fragrant spices and a royal touch.",
+  "image": "images/hyderabadi_chicken.jpg",
+  "ingredients": [
+    "Chicken",
+    "Yogurt",
+    "Fried onion",
+    "Whole spices",
+    "Mint"
+  ],
+  "tags": ["chicken", "hyderabadi", "non-vegetarian", "popular"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "30 min"
+},
+{
+  "id": "cg10",
+  "name": "Chicken Tikka Masala",
+  "category": "chicken_gravy",
+  "price": 300,
+  "description": "Char-grilled chicken tikka simmered in a creamy tomato gravy with aromatic Indian spices.",
+  "image": "images/chicken_tikka_masala.jpg",
+  "ingredients": [
+    "Chicken tikka",
+    "Tomato",
+    "Fresh cream",
+    "Butter",
+    "Garam masala"
+  ],
+  "tags": ["chicken", "tikka", "masala", "creamy", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "30 min"
+},
+{
+  "id": "cg11",
+  "name": "Butter Chicken Masala",
+  "category": "chicken_gravy",
+  "price": 320,
+  "description": "Tender chicken cooked in a rich buttery tomato gravy with fresh cream and mild aromatic spices.",
+  "image": "images/butter_chicken_masala.jpg",
+  "ingredients": [
+    "Chicken",
+    "Butter",
+    "Tomato",
+    "Fresh cream",
+    "Garam masala"
+  ],
+  "tags": ["chicken", "butter chicken", "creamy", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "30 min"
+},
+{
+  "id": "cg12",
+  "name": "Chicken Pepper Masala",
+  "category": "chicken_gravy",
+  "price": 290,
+  "description": "Juicy chicken cooked in a rich pepper-infused gravy with freshly crushed black pepper and spices.",
+  "image": "images/chicken_pepper_masala.jpg",
+  "ingredients": [
+    "Chicken",
+    "Black pepper",
+    "Onion",
+    "Ginger-garlic paste",
+    "Curry leaves"
+  ],
+  "tags": ["chicken", "pepper", "spicy", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "30 min"
+},
+{
+  "id": "sg01",
+  "name": "Fish Masala",
+  "category": "seafood_gravy",
+  "price": 330,
+  "description": "Fresh fish simmered in a rich onion and tomato gravy infused with aromatic Indian spices.",
+  "image": "images/fish_masala.jpg",
+  "ingredients": [
+    "Fish",
+    "Onion",
+    "Tomato",
+    "Ginger-garlic paste",
+    "Garam masala"
+  ],
+  "tags": ["fish", "masala", "seafood", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "25 min"
+},
+{
+  "id": "sg02",
+  "name": "Fish Pepper Masala",
+  "category": "seafood_gravy",
+  "price": 330,
+  "description": "Tender fish cooked in a pepper-infused gravy with freshly crushed black pepper and traditional spices.",
+  "image": "images/fish_pepper_masala.jpg",
+  "ingredients": [
+    "Fish",
+    "Black pepper",
+    "Onion",
+    "Curry leaves",
+    "Ginger-garlic paste"
+  ],
+  "tags": ["fish", "pepper", "seafood", "spicy", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "25 min"
+},
+{
+  "id": "sg03",
+  "name": "Fish Chettinad",
+  "category": "seafood_gravy",
+  "price": 330,
+  "description": "Fresh fish simmered in a spicy Chettinad gravy with roasted spices and fragrant curry leaves.",
+  "image": "images/fish_chettinad.jpg",
+  "ingredients": [
+    "Fish",
+    "Shallots",
+    "Curry leaves",
+    "Fennel seeds",
+    "Black pepper"
+  ],
+  "tags": ["fish", "chettinad", "seafood", "spicy", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 5,
+  "prepTime": "30 min"
+},
+{
+  "id": "sg04",
+  "name": "Prawn Masala",
+  "category": "seafood_gravy",
+  "price": 340,
+  "description": "Juicy prawns cooked in a rich onion and tomato gravy blended with aromatic Indian spices.",
+  "image": "images/prawn_masala.jpg",
+  "ingredients": [
+    "Prawns",
+    "Onion",
+    "Tomato",
+    "Ginger-garlic paste",
+    "Garam masala"
+  ],
+  "tags": ["prawns", "masala", "seafood", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "25 min"
+},
+{
+  "id": "sg05",
+  "name": "Prawn Chettinad",
+  "category": "seafood_gravy",
+  "price": 340,
+  "description": "Succulent prawns simmered in an authentic Chettinad gravy with roasted spices and curry leaves.",
+  "image": "images/prawn_chettinad.jpg",
+  "ingredients": [
+    "Prawns",
+    "Shallots",
+    "Curry leaves",
+    "Fennel seeds",
+    "Black pepper"
+  ],
+  "tags": ["prawns", "chettinad", "seafood", "spicy", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 5,
+  "prepTime": "30 min"
+},
+{
+  "id": "sg06",
+  "name": "Prawn Pepper Masala",
+  "category": "seafood_gravy",
+  "price": 340,
+  "description": "Fresh prawns cooked in a bold pepper gravy with aromatic spices for a rich and spicy flavour.",
+  "image": "images/prawn_pepper_masala.jpg",
+  "ingredients": [
+    "Prawns",
+    "Black pepper",
+    "Onion",
+    "Curry leaves",
+    "Ginger-garlic paste"
+  ],
+  "tags": ["prawns", "pepper", "seafood", "spicy", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "25 min"
+},
+{
+  "id": "vg01",
+  "name": "Mix Veg Curry",
+  "category": "veg_gravy",
+  "price": 250,
+  "description": "A wholesome blend of fresh seasonal vegetables simmered in a rich, mildly spiced onion-tomato gravy.",
+  "image": "images/mix_veg_curry.jpg",
+  "ingredients": [
+    "Mixed vegetables",
+    "Onion",
+    "Tomato",
+    "Ginger-garlic paste",
+    "Indian spices"
+  ],
+  "tags": ["veg", "curry", "mixed vegetables", "vegetarian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "20 min"
+},
+{
+  "id": "vg02",
+  "name": "Babycorn Masala",
+  "category": "veg_gravy",
+  "price": 230,
+  "description": "Tender baby corn cooked in a creamy, aromatic masala with a perfect balance of spices and herbs.",
+  "image": "images/babycorn_masala.jpg",
+  "ingredients": [
+    "Baby corn",
+    "Onion",
+    "Tomato",
+    "Cream",
+    "Indian spices"
+  ],
+  "tags": ["veg", "baby corn", "masala", "vegetarian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "20 min"
+},
+{
+  "id": "vg03",
+  "name": "Mushroom Masala",
+  "category": "veg_gravy",
+  "price": 230,
+  "description": "Juicy mushrooms simmered in a flavourful onion-tomato gravy infused with fragrant Indian spices.",
+  "image": "images/mushroom_masala.jpg",
+  "ingredients": [
+    "Mushroom",
+    "Onion",
+    "Tomato",
+    "Ginger-garlic paste",
+    "Indian spices"
+  ],
+  "tags": ["veg", "mushroom", "masala", "vegetarian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "20 min"
+},
+{
+  "id": "vg04",
+  "name": "Paneer Tikka Masala",
+  "category": "veg_gravy",
+  "price": 280,
+  "description": "Grilled paneer cubes tossed in a rich, smoky tomato-based gravy bursting with authentic flavours.",
+  "image": "images/paneer_tikka_masala.jpg",
+  "ingredients": [
+    "Paneer",
+    "Tomato",
+    "Onion",
+    "Cream",
+    "Tandoori spices"
+  ],
+  "tags": ["veg", "paneer", "tikka", "vegetarian", "popular"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "25 min"
+},
+{
+  "id": "vg05",
+  "name": "Paneer Butter Masala",
+  "category": "veg_gravy",
+  "price": 230,
+  "description": "Soft paneer cubes cooked in a silky, buttery tomato gravy with a touch of cream and spices.",
+  "image": "images/paneer_butter_masala.jpg",
+  "ingredients": [
+    "Paneer",
+    "Tomato",
+    "Butter",
+    "Cream",
+    "Cashew"
+  ],
+  "tags": ["veg", "paneer", "butter", "creamy", "vegetarian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 1,
+  "prepTime": "25 min"
+},
+{
+  "id": "vg06",
+  "name": "Paneer Kadai Masala",
+  "category": "veg_gravy",
+  "price": 230,
+  "description": "Fresh paneer cooked with capsicum and onions in a bold, freshly ground kadai spice blend.",
+  "image": "images/paneer_kadai_masala.jpg",
+  "ingredients": [
+    "Paneer",
+    "Capsicum",
+    "Onion",
+    "Tomato",
+    "Kadai masala"
+  ],
+  "tags": ["veg", "paneer", "kadai", "vegetarian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "25 min"
+},
+{
+  "id": "vg07",
+  "name": "Veg Kadai Masala",
+  "category": "veg_gravy",
+  "price": 230,
+  "description": "Fresh vegetables stir-cooked in a spicy kadai masala with capsicum and aromatic herbs.",
+  "image": "images/veg_kadai_masala.jpg",
+  "ingredients": [
+    "Mixed vegetables",
+    "Capsicum",
+    "Onion",
+    "Tomato",
+    "Kadai masala"
+  ],
+  "tags": ["veg", "kadai", "mixed vegetables", "vegetarian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "20 min"
+},
+{
+  "id": "vg08",
+  "name": "Kadai Paneer",
+  "category": "veg_gravy",
+  "price": 230,
+  "description": "Cottage cheese and capsicum cooked together in a robust kadai gravy with freshly crushed spices.",
+  "image": "images/kadai_paneer.jpg",
+  "ingredients": [
+    "Paneer",
+    "Capsicum",
+    "Onion",
+    "Tomato",
+    "Kadai masala"
+  ],
+  "tags": ["veg", "paneer", "kadai", "vegetarian", "popular"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "25 min"
+},
+{
+  "id": "vg09",
+  "name": "Gobi Masala",
+  "category": "veg_gravy",
+  "price": 230,
+  "description": "Tender cauliflower florets cooked in a rich, spiced tomato-onion gravy full of authentic flavours.",
+  "image": "images/gobi_masala.jpg",
+  "ingredients": [
+    "Cauliflower",
+    "Onion",
+    "Tomato",
+    "Ginger-garlic paste",
+    "Indian spices"
+  ],
+  "tags": ["veg", "gobi", "masala", "vegetarian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "20 min"
+},
+{
+  "id": "st01",
+  "name": "Anifa Kerala Mutton",
+  "category": "starters",
+  "price": 350,
+  "description": "Tender mutton cooked in authentic Kerala spices with roasted coconut for a rich, aromatic coastal flavour.",
+  "image": "images/anifa_kerala_mutton.jpg",
+  "ingredients": [
+    "Mutton",
+    "Coconut",
+    "Curry leaves",
+    "Black pepper",
+    "Kerala spices"
+  ],
+  "tags": ["mutton", "kerala", "starter", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "30 min"
+},
+{
+  "id": "st02",
+  "name": "Mutton Pepper Fry",
+  "category": "starters",
+  "price": 350,
+  "description": "Juicy mutton stir-fried with freshly crushed black pepper and aromatic spices for a bold, spicy finish.",
+  "image": "images/mutton_pepper_fry.jpg",
+  "ingredients": [
+    "Mutton",
+    "Black pepper",
+    "Curry leaves",
+    "Onion",
+    "Ginger-garlic paste"
+  ],
+  "tags": ["mutton", "pepper", "starter", "spicy"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 5,
+  "prepTime": "30 min"
+},
+{
+  "id": "st03",
+  "name": "Mutton Chukka",
+  "category": "starters",
+  "price": 350,
+  "description": "Succulent mutton slow-roasted with South Indian spices until dry, tender, and intensely flavourful.",
+  "image": "images/mutton_chukka.jpg",
+  "ingredients": [
+    "Mutton",
+    "Shallots",
+    "Curry leaves",
+    "Black pepper",
+    "Whole spices"
+  ],
+  "tags": ["mutton", "chukka", "south indian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "35 min"
+},
+{
+  "id": "st04",
+  "name": "Madurai Mutton Varuval",
+  "category": "starters",
+  "price": 350,
+  "description": "Tender mutton roasted with Madurai-style spices and curry leaves for an authentic Chettinad-inspired taste.",
+  "image": "images/madurai_mutton_varuval.jpg",
+  "ingredients": [
+    "Mutton",
+    "Shallots",
+    "Curry leaves",
+    "Fennel seeds",
+    "Black pepper"
+  ],
+  "tags": ["mutton", "varuval", "madurai", "spicy"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 5,
+  "prepTime": "35 min"
+},
+{
+  "id": "st05",
+  "name": "Mutton Kola (3 Balls)",
+  "category": "starters",
+  "price": 210,
+  "description": "Crispy, deep-fried minced mutton balls blended with aromatic spices and herbs for a classic South Indian starter.",
+  "image": "images/mutton_kola.jpg",
+  "ingredients": [
+    "Minced mutton",
+    "Shallots",
+    "Fennel seeds",
+    "Curry leaves",
+    "Ginger-garlic paste"
+  ],
+  "tags": ["mutton", "kola", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "25 min"
+},
+{
+  "id": "st06",
+  "name": "Anifa Chicken 65 (Bone)",
+  "category": "starters",
+  "price": 240,
+  "description": "Crispy bone-in chicken tossed with signature spices for a spicy and flavorful starter.",
+  "image": "images/anifa_chicken_65_bone.jpg",
+  "ingredients": [
+    "Chicken",
+    "Corn Flour",
+    "Ginger-Garlic Paste",
+    "Curry Leaves",
+    "Red Chilli"
+  ],
+  "tags": ["chicken", "65", "starter", "popular"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "25 min"
+},
+{
+  "id": "st07",
+  "name": "Anifa Chicken 65 (Boneless)",
+  "category": "starters",
+  "price": 280,
+  "description": "Tender boneless chicken fried until crispy and coated in bold South Indian spices.",
+  "image": "images/anifa_chicken_65_boneless.jpg",
+  "ingredients": [
+    "Boneless Chicken",
+    "Corn Flour",
+    "Ginger-Garlic Paste",
+    "Curry Leaves",
+    "Red Chilli"
+  ],
+  "tags": ["chicken", "65", "boneless"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "25 min"
+},
+{
+  "id": "st08",
+  "name": "Chicken Lollipop",
+  "category": "starters",
+  "price": 280,
+  "description": "Frenched chicken wings marinated and deep-fried until crispy with a spicy finish.",
+  "image": "images/chicken_lollipop.jpg",
+  "ingredients": [
+    "Chicken Wings",
+    "Corn Flour",
+    "Garlic",
+    "Ginger",
+    "Chilli Sauce"
+  ],
+  "tags": ["chicken", "lollipop", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "25 min"
+},
+{
+  "id": "st09",
+  "name": "Lollipop Manchurian",
+  "category": "starters",
+  "price": 300,
+  "description": "Crispy chicken lollipops tossed in a savory Indo-Chinese Manchurian sauce.",
+  "image": "images/lollipop_manchurian.jpg",
+  "ingredients": [
+    "Chicken Lollipop",
+    "Garlic",
+    "Soy Sauce",
+    "Chilli Sauce",
+    "Spring Onion"
+  ],
+  "tags": ["chicken", "manchurian", "indo-chinese"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "25 min"
+},
+{
+  "id": "st10",
+  "name": "Orange Chicken",
+  "category": "starters",
+  "price": 300,
+  "description": "Crispy chicken coated in a sweet and tangy orange glaze with a refreshing citrus aroma.",
+  "image": "images/orange_chicken.jpg",
+  "ingredients": [
+    "Chicken",
+    "Orange Sauce",
+    "Garlic",
+    "Soy Sauce",
+    "Corn Flour"
+  ],
+  "tags": ["chicken", "orange", "indo-chinese"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "25 min"
+},
+{
+  "id": "st11",
+  "name": "Lemon Chicken",
+  "category": "starters",
+  "price": 300,
+  "description": "Tender chicken tossed in a zesty lemon sauce with a refreshing citrus finish.",
+  "image": "images/lemon_chicken.jpg",
+  "ingredients": [
+    "Chicken",
+    "Lemon Juice",
+    "Garlic",
+    "Pepper",
+    "Butter"
+  ],
+  "tags": ["chicken", "lemon", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "25 min"
+},
+{
+  "id": "st12",
+  "name": "Coriander Chicken",
+  "category": "starters",
+  "price": 300,
+  "description": "Juicy chicken cooked with fresh coriander and aromatic spices for a fragrant flavour.",
+  "image": "images/coriander_chicken.jpg",
+  "ingredients": [
+    "Chicken",
+    "Coriander",
+    "Garlic",
+    "Green Chilli",
+    "Onion"
+  ],
+  "tags": ["chicken", "coriander", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "25 min"
+},
+{
+  "id": "st13",
+  "name": "Chicken Pepper Fry",
+  "category": "starters",
+  "price": 280,
+  "description": "Tender chicken stir-fried with freshly crushed black pepper and aromatic spices.",
+  "image": "images/chicken_pepper_fry.jpg",
+  "ingredients": [
+    "Chicken",
+    "Black Pepper",
+    "Onion",
+    "Curry Leaves",
+    "Garlic"
+  ],
+  "tags": ["chicken", "pepper", "starter", "spicy"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "30 min"
+},
+{
+  "id": "st14",
+  "name": "Dragon Chicken",
+  "category": "starters",
+  "price": 300,
+  "description": "Crispy chicken strips tossed in a spicy, tangy sauce with crunchy vegetables.",
+  "image": "images/dragon_chicken.jpg",
+  "ingredients": [
+    "Chicken",
+    "Capsicum",
+    "Garlic",
+    "Soy Sauce",
+    "Chilli Sauce"
+  ],
+  "tags": ["chicken", "dragon", "indo-chinese", "spicy"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "25 min"
+},
+{
+  "id": "st15",
+  "name": "Kaadai Pepper Fry",
+  "category": "starters",
+  "price": 280,
+  "description": "Tender quail stir-fried with black pepper and traditional South Indian spices.",
+  "image": "images/kaadai_pepper_fry.jpg",
+  "ingredients": [
+    "Quail",
+    "Black Pepper",
+    "Garlic",
+    "Onion",
+    "Curry Leaves"
+  ],
+  "tags": ["quail", "pepper", "starter", "spicy"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "30 min"
+},
+{
+  "id": "st16",
+  "name": "Kaadai 65 (2 Nos)",
+  "category": "starters",
+  "price": 280,
+  "description": "Crispy fried quail marinated in bold spices for a delicious South Indian specialty.",
+  "image": "images/kaadai_65.jpg",
+  "ingredients": [
+    "Quail",
+    "Corn Flour",
+    "Ginger-Garlic Paste",
+    "Curry Leaves",
+    "Red Chilli"
+  ],
+  "tags": ["quail", "65", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "30 min"
+},
+{
+  "id": "st17",
+  "name": "Naatukozhi Pepper Fry",
+  "category": "starters",
+  "price": 300,
+  "description": "Country chicken stir-fried with crushed black pepper and aromatic spices for authentic flavour.",
+  "image": "images/naatukozhi_pepper_fry.jpg",
+  "ingredients": [
+    "Country Chicken",
+    "Black Pepper",
+    "Onion",
+    "Garlic",
+    "Curry Leaves"
+  ],
+  "tags": ["country chicken", "pepper", "starter", "spicy"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 5,
+  "prepTime": "35 min"
+},
+{
+  "id": "st18",
+  "name": "Chicken Manchurian (Dry/Semi Gravy)",
+  "category": "starters",
+  "price": 300,
+  "description": "Crispy chicken tossed in a rich Indo-Chinese sauce with bold savory flavours.",
+  "image": "images/chicken_manchurian.jpg",
+  "ingredients": [
+    "Chicken",
+    "Garlic",
+    "Soy Sauce",
+    "Chilli Sauce",
+    "Spring Onion"
+  ],
+  "tags": ["chicken", "manchurian", "indo-chinese"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "25 min"
+},
+{
+  "id": "st19",
+  "name": "Chilli Chicken (Dry/Semi Gravy)",
+  "category": "starters",
+  "price": 300,
+  "description": "Tender chicken cooked with capsicum and spicy chilli sauce for a classic favourite.",
+  "image": "images/chilli_chicken.jpg",
+  "ingredients": [
+    "Chicken",
+    "Capsicum",
+    "Garlic",
+    "Soy Sauce",
+    "Chilli Sauce"
+  ],
+  "tags": ["chicken", "chilli", "indo-chinese", "spicy"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "25 min"
+},
+{
+  "id": "st20",
+  "name": "Garlic Chicken",
+  "category": "starters",
+  "price": 280,
+  "description": "Juicy chicken sautéed with roasted garlic and flavorful spices for a rich aromatic taste.",
+  "image": "images/garlic_chicken.jpg",
+  "ingredients": [
+    "Chicken",
+    "Garlic",
+    "Pepper",
+    "Butter",
+    "Spring Onion"
+  ],
+  "tags": ["chicken", "garlic", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "25 min"
+},
+{
+  "id": "st21",
+  "name": "Anifa Chicken Roaster",
+  "category": "starters",
+  "price": 280,
+  "description": "House-special roasted chicken seasoned with signature spices and cooked until perfectly juicy.",
+  "image": "images/anifa_chicken_roaster.jpg",
+  "ingredients": [
+    "Chicken",
+    "Garlic",
+    "Pepper",
+    "Butter",
+    "Signature Spice Mix"
+  ],
+  "tags": ["chicken", "roaster", "signature", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "35 min"
+},
+{
+  "id": "st22",
+  "name": "Honey Garlic Chicken",
+  "category": "starters",
+  "price": 280,
+  "description": "Crispy chicken glazed with honey and roasted garlic for a perfect balance of sweet and savory.",
+  "image": "images/honey_garlic_chicken.jpg",
+  "ingredients": [
+    "Chicken",
+    "Honey",
+    "Garlic",
+    "Soy Sauce",
+    "Butter"
+  ],
+  "tags": ["chicken", "honey garlic", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "25 min"
+},
+{
+  "id": "st23",
+  "name": "Fried Chicken (3 Leg Pieces)",
+  "category": "starters",
+  "price": 270,
+  "description": "Golden-fried chicken legs coated in seasoned batter for a crispy and juicy bite.",
+  "image": "images/fried_chicken_leg_pieces.jpg",
+  "ingredients": [
+    "Chicken Legs",
+    "Flour",
+    "Corn Flour",
+    "Pepper",
+    "Garlic"
+  ],
+  "tags": ["chicken", "fried", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "30 min"
+},
+{
+  "id": "st24",
+  "name": "Tawa Fish Fry",
+  "category": "starters",
+  "price": 350,
+  "description": "Fresh fish marinated with aromatic spices and pan-seared on a hot tawa until perfectly crisp.",
+  "image": "images/tawa_fish_fry.jpg",
+  "ingredients": [
+    "Fish",
+    "Chilli powder",
+    "Turmeric",
+    "Lemon juice",
+    "Curry leaves"
+  ],
+  "tags": ["fish", "fry", "seafood", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "25 min"
+},
+{
+  "id": "st25",
+  "name": "Fish 65",
+  "category": "starters",
+  "price": 330,
+  "description": "Boneless fish pieces coated in spicy masala and deep-fried until crispy and flavour-packed.",
+  "image": "images/fish_65.jpg",
+  "ingredients": [
+    "Fish",
+    "Corn flour",
+    "Ginger-garlic paste",
+    "Curry leaves",
+    "Chilli powder"
+  ],
+  "tags": ["fish", "65", "seafood", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "25 min"
+},
+{
+  "id": "st26",
+  "name": "Chilli Fish",
+  "category": "starters",
+  "price": 330,
+  "description": "Crispy fish tossed in a spicy chilli sauce with onions and capsicum for a bold Indo-Chinese flavour.",
+  "image": "images/chilli_fish.jpg",
+  "ingredients": [
+    "Fish",
+    "Capsicum",
+    "Onion",
+    "Green chilli",
+    "Soy sauce"
+  ],
+  "tags": ["fish", "chilli", "indo-chinese", "seafood"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "25 min"
+},
+{
+  "id": "st27",
+  "name": "Fish Finger",
+  "category": "starters",
+  "price": 340,
+  "description": "Golden-fried fish strips coated in seasoned breadcrumbs, offering a crispy outside and tender bite.",
+  "image": "images/fish_finger.jpg",
+  "ingredients": [
+    "Fish fillet",
+    "Breadcrumbs",
+    "Egg",
+    "Black pepper",
+    "Herbs"
+  ],
+  "tags": ["fish", "finger", "seafood", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "25 min"
+},
+{
+  "id": "st28",
+  "name": "Nethili Fry",
+  "category": "starters",
+  "price": 280,
+  "description": "Fresh anchovies marinated in traditional spices and fried until crispy and irresistibly crunchy.",
+  "image": "images/nethili_fry.jpg",
+  "ingredients": [
+    "Nethili (Anchovies)",
+    "Chilli powder",
+    "Turmeric",
+    "Rice flour",
+    "Curry leaves"
+  ],
+  "tags": ["fish", "nethili", "seafood", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "25 min"
+},
+{
+  "id": "st29",
+  "name": "Chilli Prawn",
+  "category": "starters",
+  "price": 340,
+  "description": "Juicy prawns stir-fried with chillies, onions, and capsicum in a spicy Indo-Chinese sauce.",
+  "image": "images/chilli_prawn.jpg",
+  "ingredients": [
+    "Prawns",
+    "Capsicum",
+    "Onion",
+    "Green chilli",
+    "Soy sauce"
+  ],
+  "tags": ["prawn", "chilli", "seafood", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "25 min"
+},
+{
+  "id": "st30",
+  "name": "Prawn 65",
+  "category": "starters",
+  "price": 340,
+  "description": "Crispy prawns coated in a spicy masala and deep-fried for a delicious South Indian favourite.",
+  "image": "images/prawn_65.jpg",
+  "ingredients": [
+    "Prawns",
+    "Corn flour",
+    "Ginger-garlic paste",
+    "Curry leaves",
+    "Chilli powder"
+  ],
+  "tags": ["prawn", "65", "seafood", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "25 min"
+},
+{
+  "id": "st31",
+  "name": "Prawn Pepper Fry",
+  "category": "starters",
+  "price": 340,
+  "description": "Succulent prawns tossed with freshly crushed black pepper and aromatic spices for a fiery finish.",
+  "image": "images/prawn_pepper_fry.jpg",
+  "ingredients": [
+    "Prawns",
+    "Black pepper",
+    "Onion",
+    "Curry leaves",
+    "Ginger-garlic paste"
+  ],
+  "tags": ["prawn", "pepper", "seafood", "spicy"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 5,
+  "prepTime": "30 min"
+},
+{
+  "id": "st32",
+  "name": "Prawn Varuval",
+  "category": "starters",
+  "price": 340,
+  "description": "Fresh prawns slow-roasted with South Indian spices and curry leaves for a rich, authentic flavour.",
+  "image": "images/prawn_varuval.jpg",
+  "ingredients": [
+    "Prawns",
+    "Shallots",
+    "Curry leaves",
+    "Black pepper",
+    "Fennel seeds"
+  ],
+  "tags": ["prawn", "varuval", "seafood", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "30 min"
+},
+{
+  "id": "st33",
+  "name": "Crab Lollipop",
+  "category": "starters",
+  "price": 350,
+  "description": "Crispy crab meat shaped into lollipops and fried to perfection with aromatic seasonings.",
+  "image": "images/crab_lollipop.jpg",
+  "ingredients": [
+    "Crab meat",
+    "Breadcrumbs",
+    "Egg",
+    "Black pepper",
+    "Herbs"
+  ],
+  "tags": ["crab", "seafood", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "30 min"
+},
+{
+  "id": "st34",
+  "name": "Dynamic Prawn",
+  "category": "starters",
+  "price": 360,
+  "description": "Crispy prawns coated in a creamy, spicy signature sauce for a rich and irresistible seafood delight.",
+  "image": "images/dynamic_prawn.jpg",
+  "ingredients": [
+    "Prawns",
+    "Mayonnaise",
+    "Chilli sauce",
+    "Garlic",
+    "Corn flour"
+  ],
+  "tags": ["prawn", "dynamic", "seafood", "starter"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "25 min"
+},
+{
+  "id": "st35",
+  "name": "Mushroom 65",
+  "category": "starters",
+  "price": 210,
+  "description": "Crispy mushrooms coated in spicy South Indian seasoning and deep-fried to golden perfection.",
+  "image": "images/mushroom_65.jpg",
+  "ingredients": [
+    "Mushroom",
+    "Corn flour",
+    "Chilli powder",
+    "Curry leaves",
+    "Ginger-garlic paste"
+  ],
+  "tags": ["mushroom", "65", "vegetarian", "starter"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "20 min"
+},
+{
+  "id": "st36",
+  "name": "Paneer 65",
+  "category": "starters",
+  "price": 210,
+  "description": "Soft paneer cubes coated in spicy masala and fried until crispy outside and tender inside.",
+  "image": "images/paneer_65.jpg",
+  "ingredients": [
+    "Paneer",
+    "Corn flour",
+    "Chilli powder",
+    "Curry leaves",
+    "Ginger-garlic paste"
+  ],
+  "tags": ["paneer", "65", "vegetarian", "starter"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "20 min"
+},
+{
+  "id": "st37",
+  "name": "Baby Corn 65",
+  "category": "starters",
+  "price": 180,
+  "description": "Crunchy baby corn marinated with aromatic spices and deep-fried for a crispy, flavourful bite.",
+  "image": "images/baby_corn_65.jpg",
+  "ingredients": [
+    "Baby corn",
+    "Corn flour",
+    "Chilli powder",
+    "Ginger-garlic paste",
+    "Curry leaves"
+  ],
+  "tags": ["baby corn", "65", "vegetarian", "starter"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "20 min"
+},
+{
+  "id": "st38",
+  "name": "Paneer Tikka",
+  "category": "starters",
+  "price": 250,
+  "description": "Soft paneer cubes marinated in spiced yogurt and grilled to smoky perfection in the tandoor.",
+  "image": "images/paneer_tikka.jpg",
+  "ingredients": [
+    "Paneer",
+    "Yogurt",
+    "Capsicum",
+    "Onion",
+    "Tandoori masala"
+  ],
+  "tags": ["paneer", "tikka", "tandoor", "vegetarian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "25 min"
+},
+{
+  "id": "st39",
+  "name": "Gobi 65",
+  "category": "starters",
+  "price": 180,
+  "description": "Crispy cauliflower florets coated in spicy batter and fried until perfectly golden and crunchy.",
+  "image": "images/gobi_65.jpg",
+  "ingredients": [
+    "Cauliflower",
+    "Corn flour",
+    "Chilli powder",
+    "Curry leaves",
+    "Ginger-garlic paste"
+  ],
+  "tags": ["gobi", "65", "vegetarian", "starter"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "20 min"
+},
+{
+  "id": "st40",
+  "name": "Paneer Manchurian (Dry / Semi Gravy)",
+  "category": "starters",
+  "price": 260,
+  "description": "Crispy paneer tossed in a savoury Indo-Chinese sauce with fresh vegetables and bold flavours.",
+  "image": "images/paneer_manchurian.jpg",
+  "ingredients": [
+    "Paneer",
+    "Soy sauce",
+    "Garlic",
+    "Capsicum",
+    "Spring onion"
+  ],
+  "tags": ["paneer", "manchurian", "indo-chinese", "vegetarian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "25 min"
+},
+{
+  "id": "st41",
+  "name": "Mushroom Manchurian (Dry / Semi Gravy)",
+  "category": "starters",
+  "price": 230,
+  "description": "Juicy mushrooms stir-fried in a spicy Indo-Chinese sauce with fresh vegetables and herbs.",
+  "image": "images/mushroom_manchurian.jpg",
+  "ingredients": [
+    "Mushroom",
+    "Soy sauce",
+    "Garlic",
+    "Capsicum",
+    "Spring onion"
+  ],
+  "tags": ["mushroom", "manchurian", "indo-chinese", "vegetarian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "25 min"
+},
+{
+  "id": "st42",
+  "name": "Gobi Manchurian (Dry / Semi Gravy)",
+  "category": "starters",
+  "price": 230,
+  "description": "Crispy cauliflower tossed in a tangy Indo-Chinese sauce with garlic and crunchy vegetables.",
+  "image": "images/gobi_manchurian.jpg",
+  "ingredients": [
+    "Cauliflower",
+    "Soy sauce",
+    "Garlic",
+    "Capsicum",
+    "Spring onion"
+  ],
+  "tags": ["gobi", "manchurian", "indo-chinese", "vegetarian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "25 min"
+},
+{
+  "id": "fr01",
+  "name": "Veg Fried Rice / Noodles",
+  "category": "fried_rice",
+  "price": 190,
+  "description": "Fresh vegetables stir-fried with fragrant rice or noodles in a savoury blend of Asian seasonings.",
+  "image": "images/veg_fried_rice_noodles.jpg",
+  "ingredients": [
+    "Rice / Noodles",
+    "Mixed vegetables",
+    "Soy sauce",
+    "Spring onion",
+    "Garlic"
+  ],
+  "tags": ["veg", "fried rice", "noodles", "indo-chinese", "vegetarian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "20 min"
+},
+{
+  "id": "fr02",
+  "name": "Mushroom Fried Rice / Noodles",
+  "category": "fried_rice",
+  "price": 230,
+  "description": "Juicy mushrooms tossed with rice or noodles, fresh vegetables, and aromatic Asian spices.",
+  "image": "images/mushroom_fried_rice_noodles.jpg",
+  "ingredients": [
+    "Rice / Noodles",
+    "Mushroom",
+    "Soy sauce",
+    "Spring onion",
+    "Garlic"
+  ],
+  "tags": ["mushroom", "fried rice", "noodles", "indo-chinese", "vegetarian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "20 min"
+},
+{
+  "id": "fr03",
+  "name": "Paneer Fried Rice / Noodles",
+  "category": "fried_rice",
+  "price": 230,
+  "description": "Soft paneer cubes stir-fried with rice or noodles, crisp vegetables, and flavourful seasonings.",
+  "image": "images/paneer_fried_rice_noodles.jpg",
+  "ingredients": [
+    "Rice / Noodles",
+    "Paneer",
+    "Soy sauce",
+    "Spring onion",
+    "Capsicum"
+  ],
+  "tags": ["paneer", "fried rice", "noodles", "indo-chinese", "vegetarian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "25 min"
+},
+{
+  "id": "fr04",
+  "name": "Veg Mix Fried Rice / Noodles",
+  "category": "fried_rice",
+  "price": 230,
+  "description": "A delicious medley of vegetables stir-fried with rice or noodles for a colourful, flavour-packed dish.",
+  "image": "images/veg_mix_fried_rice_noodles.jpg",
+  "ingredients": [
+    "Rice / Noodles",
+    "Mixed vegetables",
+    "Soy sauce",
+    "Spring onion",
+    "Garlic"
+  ],
+  "tags": ["veg", "mixed vegetables", "fried rice", "noodles", "vegetarian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "20 min"
+},
+{
+  "id": "fr05",
+  "name": "Egg Fried Rice / Noodles",
+  "category": "fried_rice",
+  "price": 210,
+  "description": "Wok-tossed rice or noodles with eggs, vegetables, and savoury seasonings for a satisfying meal.",
+  "image": "images/egg_fried_rice_noodles.jpg",
+  "ingredients": [
+    "Rice/Noodles",
+    "Egg",
+    "Mixed Vegetables",
+    "Soy Sauce",
+    "Spring Onion"
+  ],
+  "tags": ["egg", "fried rice", "noodles", "indo-chinese"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "20 min"
+},
+{
+  "id": "fr06",
+  "name": "Chicken Fried Rice / Noodles",
+  "category": "fried_rice",
+  "price": 230,
+  "description": "Tender chicken stir-fried with rice or noodles, vegetables, and aromatic sauces.",
+  "image": "images/chicken_fried_rice_noodles.jpg",
+  "ingredients": [
+    "Rice/Noodles",
+    "Chicken",
+    "Mixed Vegetables",
+    "Soy Sauce",
+    "Spring Onion"
+  ],
+  "tags": ["chicken", "fried rice", "noodles", "indo-chinese", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "25 min"
+},
+{
+  "id": "fr07",
+  "name": "Mutton Fried Rice / Noodles",
+  "category": "fried_rice",
+  "price": 280,
+  "description": "Juicy mutton pieces stir-fried with rice or noodles for a rich and flavourful dish.",
+  "image": "images/mutton_fried_rice_noodles.jpg",
+  "ingredients": [
+    "Rice/Noodles",
+    "Mutton",
+    "Mixed Vegetables",
+    "Soy Sauce",
+    "Spring Onion"
+  ],
+  "tags": ["mutton", "fried rice", "noodles", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "30 min"
+},
+{
+  "id": "fr08",
+  "name": "Prawn Fried Rice / Noodles",
+  "category": "fried_rice",
+  "price": 310,
+  "description": "Succulent prawns tossed with rice or noodles and savoury Asian-style seasonings.",
+  "image": "images/prawn_fried_rice_noodles.jpg",
+  "ingredients": [
+    "Rice/Noodles",
+    "Prawns",
+    "Mixed Vegetables",
+    "Soy Sauce",
+    "Spring Onion"
+  ],
+  "tags": ["prawn", "fried rice", "noodles", "seafood", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "25 min"
+},
+{
+  "id": "fr09",
+  "name": "Mix Non-Veg Fried Rice / Noodles",
+  "category": "fried_rice",
+  "price": 330,
+  "description": "A delicious combination of chicken, mutton, prawns, and egg stir-fried with rice or noodles.",
+  "image": "images/mix_nonveg_fried_rice_noodles.jpg",
+  "ingredients": [
+    "Rice/Noodles",
+    "Chicken",
+    "Mutton",
+    "Prawns",
+    "Egg"
+  ],
+  "tags": ["mixed non-veg", "fried rice", "noodles", "special"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "35 min"
+},
+{
+  "id": "fr10",
+  "name": "Schezwan (Add-on)",
+  "category": "fried_rice",
+  "price": 40,
+  "description": "Fiery Schezwan sauce added for an extra spicy and flavour-packed finish.",
+  "image": "images/schezwan_addon.jpeg",
+  "ingredients": [
+    "Red Chillies",
+    "Garlic",
+    "Ginger",
+    "Soy Sauce",
+    "Vinegar"
+  ],
+  "tags": ["schezwan", "addon", "spicy", "sauce"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 5,
+  "prepTime": "5 min"
+},
+{
+  "id": "eg01",
+  "name": "Egg Masala",
+  "category": "egg_dish",
+  "price": 200,
+  "description": "Boiled eggs simmered in a rich onion and tomato gravy infused with aromatic Indian spices.",
+  "image": "images/egg_masala.jpg",
+  "ingredients": [
+    "Eggs",
+    "Onion",
+    "Tomato",
+    "Ginger-garlic paste",
+    "Garam masala"
+  ],
+  "tags": ["egg", "masala", "gravy", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "20 min"
+},
+{
+  "id": "eg02",
+  "name": "Egg Podimas",
+  "category": "egg_dish",
+  "price": 120,
+  "description": "Scrambled eggs stir-fried with onions, green chillies, and curry leaves for a simple, flavourful dish.",
+  "image": "images/egg_podimas.jpg",
+  "ingredients": [
+    "Eggs",
+    "Onion",
+    "Green chilli",
+    "Curry leaves",
+    "Black pepper"
+  ],
+  "tags": ["egg", "podimas", "south indian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "15 min"
+},
+{
+  "id": "eg03",
+  "name": "Masala Omelet",
+  "category": "egg_dish",
+  "price": 80,
+  "description": "Fluffy omelet prepared with onions, chillies, herbs, and spices for a delicious everyday favourite.",
+  "image": "images/masala_omelet.jpg",
+  "ingredients": [
+    "Eggs",
+    "Onion",
+    "Green chilli",
+    "Coriander",
+    "Black pepper"
+  ],
+  "tags": ["egg", "omelet", "breakfast"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "10 min"
+},
+{
+  "id": "eg04",
+  "name": "Plain Omelet",
+  "category": "egg_dish",
+  "price": 60,
+  "description": "Soft and fluffy omelet cooked to perfection with lightly seasoned beaten eggs.",
+  "image": "images/plain_omelet.jpg",
+  "ingredients": [
+    "Eggs",
+    "Salt",
+    "Black pepper",
+    "Oil",
+    "Butter"
+  ],
+  "tags": ["egg", "omelet", "simple"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 1,
+  "prepTime": "10 min"
+},
+{
+  "id": "eg05",
+  "name": "Boiled Egg (2 Nos)",
+  "category": "egg_dish",
+  "price": 30,
+  "description": "Perfectly boiled eggs served fresh, making a simple and protein-rich accompaniment.",
+  "image": "images/boiled_egg.jpg",
+  "ingredients": [
+    "Eggs",
+    "Water",
+    "Salt",
+    "Black pepper",
+    "Chaat masala"
+  ],
+  "tags": ["egg", "boiled", "protein"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 1,
+  "prepTime": "10 min"
+},
+{
+  "id": "tb01",
+  "name": "Pulka / Plain Roti / Plain Naan",
+  "category": "tandoori-bread",
+  "price": 70,
+  "description": "Soft, freshly baked Indian flatbread cooked to perfection, ideal with rich curries and gravies.",
+  "image": "images/pulka_plain_roti_plain_naan.jpg",
+  "ingredients": [
+    "Wheat flour",
+    "Maida",
+    "Water",
+    "Salt",
+    "Oil"
+  ],
+  "tags": [
+    "tandoori",
+    "bread",
+    "roti",
+    "vegetarian"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "10 min"
+},
+{
+  "id": "tb02",
+  "name": "Tandoori Paratha",
+  "category": "tandoori-bread",
+  "price": 80,
+  "description": "Flaky, layered paratha baked in a traditional tandoor for a crisp exterior and soft, buttery layers.",
+  "image": "images/tandoori_paratha.jpg",
+  "ingredients": [
+    "Wheat flour",
+    "Maida",
+    "Butter",
+    "Oil",
+    "Salt"
+  ],
+  "tags": [
+    "tandoori",
+    "bread",
+    "paratha",
+    "vegetarian"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "12 min"
+},
+{
+  "id": "tb03",
+  "name": "Butter Roti",
+  "category": "tandoori-bread",
+  "price": 80,
+  "description": "Soft whole wheat roti brushed with melted butter for a rich and comforting flavour.",
+  "image": "images/butter_roti.jpg",
+  "ingredients": [
+    "Wheat flour",
+    "Butter",
+    "Water",
+    "Salt",
+    "Oil"
+  ],
+  "tags": [
+    "tandoori",
+    "bread",
+    "roti",
+    "butter",
+    "vegetarian"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "10 min"
+},
+{
+  "id": "tb04",
+  "name": "Garlic Naan / Butter Naan",
+  "category": "tandoori-bread",
+  "price": 80,
+  "description": "Soft tandoor-baked naan finished with garlic or butter for a warm, aromatic taste.",
+  "image": "images/garlic_butter_naan.jpg",
+  "ingredients": [
+    "Maida",
+    "Garlic",
+    "Butter",
+    "Yogurt",
+    "Coriander"
+  ],
+  "tags": [
+    "tandoori",
+    "bread",
+    "naan",
+    "garlic",
+    "butter",
+    "vegetarian"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "10 min"
+},
+{
+  "id": "tb05",
+  "name": "Plain Kulcha",
+  "category": "tandoori-bread",
+  "price": 80,
+  "description": "Soft and fluffy leavened bread baked in a tandoor with a light, golden finish.",
+  "image": "images/plain_kulcha.jpg",
+  "ingredients": [
+    "Maida",
+    "Yogurt",
+    "Baking powder",
+    "Butter",
+    "Salt"
+  ],
+  "tags": [
+    "tandoori",
+    "bread",
+    "kulcha",
+    "vegetarian"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "10 min"
+},
+{
+  "id": "tb06",
+  "name": "Masala Kulcha",
+  "category": "tandoori-bread",
+  "price": 100,
+  "description": "Tandoor-baked kulcha stuffed with a mildly spiced potato filling for a hearty bite.",
+  "image": "images/masala_kulcha.jpg",
+  "ingredients": [
+    "Maida",
+    "Potato",
+    "Onion",
+    "Coriander",
+    "Garam masala"
+  ],
+  "tags": [
+    "tandoori",
+    "bread",
+    "kulcha",
+    "masala",
+    "vegetarian",
+    "spicy"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "12 min"
+},
+{
+  "id": "tb07",
+  "name": "Stuffed Kulcha",
+  "category": "tandoori-bread",
+  "price": 100,
+  "description": "Soft tandoor-baked bread generously filled with a flavourful spiced vegetable stuffing.",
+  "image": "images/stuffed_kulcha.jpg",
+  "ingredients": [
+    "Maida",
+    "Potato",
+    "Onion",
+    "Coriander",
+    "Green chilli"
+  ],
+  "tags": [
+    "tandoori",
+    "bread",
+    "kulcha",
+    "stuffed",
+    "vegetarian",
+    "spicy"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "12 min"
+},
+{
+  "id": "ivr01",
+  "name": "Veg Biriyani",
+  "category": "indian-veg-rice",
+  "price": 220,
+  "description": "Fragrant basmati rice layered with fresh vegetables and aromatic spices, slow dum-cooked for a wholesome flavour.",
+  "image": "images/veg_biriyani.jpg",
+  "ingredients": [
+    "Basmati rice",
+    "Mixed vegetables",
+    "Fried onion",
+    "Mint",
+    "Whole spices"
+  ],
+  "tags": [
+    "indian",
+    "rice",
+    "biryani",
+    "vegetarian",
+    "spicy"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "25 min"
+},
+{
+  "id": "ivr02",
+  "name": "Veg Pulao",
+  "category": "indian-veg-rice",
+  "price": 220,
+  "description": "Aromatic basmati rice cooked with garden-fresh vegetables and mild spices for a light, flavourful meal.",
+  "image": "images/veg_pulao.jpg",
+  "ingredients": [
+    "Basmati rice",
+    "Mixed vegetables",
+    "Ghee",
+    "Whole spices",
+    "Coriander"
+  ],
+  "tags": [
+    "indian",
+    "rice",
+    "pulao",
+    "vegetarian",
+    "mild"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 1,
+  "prepTime": "20 min"
+},
+{
+  "id": "ivr03",
+  "name": "Kashmiri Pulao",
+  "category": "indian-veg-rice",
+  "price": 250,
+  "description": "Fragrant basmati rice cooked with dry fruits, nuts, and aromatic spices for a rich, royal flavour.",
+  "image": "images/kashmiri_pulao.jpg",
+  "ingredients": [
+    "Basmati rice",
+    "Cashews",
+    "Raisins",
+    "Saffron",
+    "Ghee"
+  ],
+  "tags": [
+    "indian",
+    "rice",
+    "pulao",
+    "vegetarian",
+    "dry fruits",
+    "mild"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 1,
+  "prepTime": "20 min"
+},
+{
+  "id": "ivr04",
+  "name": "Ghee Rice",
+  "category": "indian-veg-rice",
+  "price": 220,
+  "description": "Long-grain basmati rice delicately cooked with pure ghee and aromatic whole spices for a rich, comforting taste.",
+  "image": "images/ghee_rice.jpg",
+  "ingredients": [
+    "Basmati rice",
+    "Ghee",
+    "Whole spices",
+    "Fried onion",
+    "Cashews"
+  ],
+  "tags": [
+    "indian",
+    "rice",
+    "ghee rice",
+    "vegetarian",
+    "mild"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 1,
+  "prepTime": "20 min"
+},
+{
+  "id": "j01",
+  "name": "Pista Milkshake",
+  "category": "juice",
+  "price": 160,
+  "description": "A rich and creamy milkshake blended with premium pistachios for a smooth, nutty flavour.",
+  "image": "images/pista_milkshake.jpg",
+  "ingredients": [
+    "Milk",
+    "Pistachio",
+    "Ice cream",
+    "Sugar",
+    "Cardamom"
+  ],
+  "tags": [
+    "juice",
+    "milkshake",
+    "vegetarian",
+    "sweet",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "10 min"
+},
+{
+  "id": "j02",
+  "name": "Black Currant Milkshake",
+  "category": "juice",
+  "price": 160,
+  "description": "A creamy milkshake infused with sweet and tangy black currant for a refreshing fruity taste.",
+  "image": "images/pista_milkshake.jpg",
+  "ingredients": [
+    "Milk",
+    "Black currant syrup",
+    "Ice cream",
+    "Sugar",
+    "Vanilla essence"
+  ],
+  "tags": [
+    "juice",
+    "milkshake",
+    "black currant",
+    "vegetarian",
+    "sweet",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "10 min"
+},
+{
+  "id": "j03",
+  "name": "Butterscotch Milkshake",
+  "category": "juice",
+  "price": 160,
+  "description": "Creamy milk blended with butterscotch for a delightfully smooth shake with caramel notes.",
+  "image": "images/butterscotch_milkshake.jpg",
+  "ingredients": [
+    "Milk",
+    "Butterscotch syrup",
+    "Ice cream",
+    "Sugar",
+    "Butterscotch chips"
+  ],
+  "tags": [
+    "juice",
+    "milkshake",
+    "butterscotch",
+    "vegetarian",
+    "sweet",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "10 min"
+},
+{
+  "id": "j04",
+  "name": "Mango Milkshake",
+  "category": "juice",
+  "price": 160,
+  "description": "Fresh ripe mangoes blended with chilled milk into a naturally sweet and refreshing drink.",
+  "image": "images/mango_milkshake.jpg",
+  "ingredients": [
+    "Mango",
+    "Milk",
+    "Ice cream",
+    "Sugar",
+    "Cardamom"
+  ],
+  "tags": [
+    "juice",
+    "milkshake",
+    "mango",
+    "vegetarian",
+    "sweet",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "10 min"
+},
+{
+  "id": "j05",
+  "name": "Strawberry Milkshake",
+  "category": "juice",
+  "price": 160,
+  "description": "Juicy strawberries blended with creamy milk for a refreshing and fruity milkshake.",
+  "image": "images/strawberry_milkshake.jpg",
+  "ingredients": [
+    "Strawberry",
+    "Milk",
+    "Ice cream",
+    "Sugar",
+    "Vanilla essence"
+  ],
+  "tags": [
+    "juice",
+    "milkshake",
+    "strawberry",
+    "vegetarian",
+    "sweet",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "10 min"
+},
+{
+  "id": "j06",
+  "name": "Vanilla Milkshake",
+  "category": "juice",
+  "price": 160,
+  "description": "A classic creamy milkshake with the smooth and comforting flavour of premium vanilla.",
+  "image": "images/vanilla_milkshake.jpg",
+  "ingredients": [
+    "Milk",
+    "Vanilla ice cream",
+    "Vanilla essence",
+    "Sugar",
+    "Fresh cream"
+  ],
+  "tags": [
+    "juice",
+    "milkshake",
+    "vanilla",
+    "vegetarian",
+    "sweet",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "10 min"
+},
+{
+  "id": "j07",
+  "name": "Chocolate Milkshake",
+  "category": "juice",
+  "price": 160,
+  "description": "Rich chocolate blended with chilled milk into a thick, creamy shake loved by every chocolate lover.",
+  "image": "images/chocolate_milkshake.jpg",
+  "ingredients": [
+    "Milk",
+    "Chocolate syrup",
+    "Chocolate ice cream",
+    "Sugar",
+    "Cocoa powder"
+  ],
+  "tags": [
+    "juice",
+    "milkshake",
+    "chocolate",
+    "vegetarian",
+    "sweet",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "10 min"
+},
+{
+  "id": "j08",
+  "name": "Lassi",
+  "category": "juice",
+  "price": 80,
+  "description": "A creamy, refreshing yogurt-based drink blended to a smooth texture for a cool and satisfying refreshment.",
+  "image": "images/lassi.jpg",
+  "ingredients": [
+    "Curd",
+    "Milk",
+    "Sugar",
+    "Cardamom",
+    "Ice"
+  ],
+  "tags": [
+    "juice",
+    "lassi",
+    "vegetarian",
+    "sweet",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "j09",
+  "name": "Lemon Juice",
+  "category": "juice",
+  "price": 60,
+  "description": "Freshly squeezed lemons blended with chilled water for a light, tangy, and refreshing drink.",
+  "image": "images/lemon_juice.jpg",
+  "ingredients": [
+    "Lemon",
+    "Water",
+    "Sugar",
+    "Ice",
+    "Mint"
+  ],
+  "tags": [
+    "juice",
+    "lemon",
+    "vegetarian",
+    "refreshing",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "j10",
+  "name": "Lemon Soda",
+  "category": "juice",
+  "price": 70,
+  "description": "Sparkling soda infused with fresh lemon juice for a crisp, fizzy, and refreshing beverage.",
+  "image": "images/lemon_soda.jpg",
+  "ingredients": [
+    "Lemon",
+    "Soda Water",
+    "Sugar Syrup",
+    "Ice",
+    "Mint"
+  ],
+  "tags": [
+    "juice",
+    "soda",
+    "lemon",
+    "vegetarian",
+    "refreshing",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "j11",
+  "name": "Mosambi (Sweet Lime)",
+  "category": "juice",
+  "price": 120,
+  "description": "Fresh sweet lime juice served chilled with a naturally sweet and citrusy flavour.",
+  "image": "images/mosambi_juice.jpg",
+  "ingredients": [
+    "Sweet Lime",
+    "Water",
+    "Sugar Syrup",
+    "Ice",
+    "Mint"
+  ],
+  "tags": [
+    "juice",
+    "sweet lime",
+    "fruit",
+    "vegetarian",
+    "refreshing",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "j12",
+  "name": "Watermelon / Musk Melon",
+  "category": "juice",
+  "price": 90,
+  "description": "Fresh seasonal melon juice blended into a naturally sweet and cooling summer refreshment.",
+  "image": "images/watermelon_musk_melon_juice.jpg",
+  "ingredients": [
+    "Watermelon/Musk Melon",
+    "Ice",
+    "Sugar Syrup",
+    "Mint",
+    "Lemon Juice"
+  ],
+  "tags": [
+    "juice",
+    "fruit",
+    "melon",
+    "vegetarian",
+    "refreshing",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "j13",
+  "name": "Apple",
+  "category": "juice",
+  "price": 160,
+  "description": "Fresh apples blended into a smooth, naturally sweet juice with a crisp fruity flavour.",
+  "image": "images/apple_juice.jpg",
+  "ingredients": [
+    "Apple",
+    "Water",
+    "Sugar Syrup",
+    "Ice",
+    "Lemon Juice"
+  ],
+  "tags": [
+    "juice",
+    "apple",
+    "fruit",
+    "vegetarian",
+    "refreshing",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "j14",
+  "name": "Pineapple",
+  "category": "juice",
+  "price": 160,
+  "description": "Juicy pineapple blended into a tropical drink bursting with sweet and tangy freshness.",
+  "image": "images/pineapple_juice.jpg",
+  "ingredients": [
+    "Pineapple",
+    "Water",
+    "Sugar Syrup",
+    "Ice",
+    "Lemon Juice"
+  ],
+  "tags": [
+    "juice",
+    "pineapple",
+    "fruit",
+    "vegetarian",
+    "refreshing",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "j15",
+  "name": "Pomegranate",
+  "category": "juice",
+  "price": 160,
+  "description": "Fresh pomegranate juice packed with rich fruity sweetness and a refreshing finish.",
+  "image": "images/pomegranate_juice.jpg",
+  "ingredients": [
+    "Pomegranate",
+    "Water",
+    "Sugar Syrup",
+    "Ice",
+    "Lemon Juice"
+  ],
+  "tags": [
+    "juice",
+    "pomegranate",
+    "fruit",
+    "vegetarian",
+    "refreshing",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "j16",
+  "name": "Anifa Spl Mojito",
+  "category": "juice",
+  "price": 120,
+  "description": "A signature refreshing mojito with citrus notes, mint, and a sparkling twist.",
+  "image": "images/anifa_spl_mojito.jpg",
+  "ingredients": [
+    "Lemon",
+    "Mint",
+    "Soda Water",
+    "Sugar Syrup",
+    "Ice"
+  ],
+  "tags": [
+    "juice",
+    "mocktail",
+    "mojito",
+    "vegetarian",
+    "refreshing",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "j17",
+  "name": "Orange Mocktail",
+  "category": "juice",
+  "price": 120,
+  "description": "A vibrant citrus mocktail combining fresh orange flavours with a fizzy refreshing finish.",
+  "image": "images/orange_mocktail.jpg",
+  "ingredients": [
+    "Orange Juice",
+    "Soda Water",
+    "Sugar Syrup",
+    "Ice",
+    "Mint"
+  ],
+  "tags": [
+    "juice",
+    "mocktail",
+    "orange",
+    "vegetarian",
+    "refreshing",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "j18",
+  "name": "Mojito Mint",
+  "category": "juice",
+  "price": 90,
+  "description": "A classic mint mojito offering a cool, refreshing blend of citrus and sparkling soda.",
+  "image": "images/mojito_mint.jpg",
+  "ingredients": [
+    "Mint",
+    "Lemon",
+    "Soda Water",
+    "Sugar Syrup",
+    "Ice"
+  ],
+  "tags": [
+    "juice",
+    "mocktail",
+    "mojito",
+    "mint",
+    "vegetarian",
+    "refreshing",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "j19",
+  "name": "Mojito Green Apple",
+  "category": "juice",
+  "price": 90,
+  "description": "Crisp green apple flavours blended with mint and soda for a refreshing fruity cooler.",
+  "image": "images/mojito_green_apple.jpg",
+  "ingredients": [
+    "Green Apple Syrup",
+    "Mint",
+    "Lemon",
+    "Soda Water",
+    "Ice"
+  ],
+  "tags": [
+    "juice",
+    "mocktail",
+    "mojito",
+    "green apple",
+    "vegetarian",
+    "refreshing",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "j20",
+  "name": "Mojito Strawberry",
+  "category": "juice",
+  "price": 90,
+  "description": "Sweet strawberry flavours combined with fresh mint and sparkling soda for a refreshing sip.",
+  "image": "images/mojito_strawberry.jpg",
+  "ingredients": [
+    "Strawberry Syrup",
+    "Mint",
+    "Lemon",
+    "Soda Water",
+    "Ice"
+  ],
+  "tags": [
+    "juice",
+    "mocktail",
+    "mojito",
+    "strawberry",
+    "vegetarian",
+    "refreshing",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "j21",
+  "name": "Mojito Blue Mint",
+  "category": "juice",
+  "price": 90,
+  "description": "A vibrant blue mojito featuring cool mint and citrus with a sparkling finish.",
+  "image": "images/mojito_blue_mint.jpg",
+  "ingredients": [
+    "Blue Curacao Syrup (Non-Alcoholic)",
+    "Mint",
+    "Lemon",
+    "Soda Water",
+    "Ice"
+  ],
+  "tags": [
+    "juice",
+    "mocktail",
+    "mojito",
+    "blue mint",
+    "vegetarian",
+    "refreshing",
+    "cold"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "d01",
+  "name": "Anifa Spl Falooda",
+  "category": "dessert",
+  "price": 210,
+  "description": "A rich and colourful dessert layered with falooda, ice cream, and sweet toppings for an indulgent treat.",
+  "image": "images/anifa_spl_falooda.jpg",
+  "ingredients": [
+    "Falooda Sev",
+    "Milk",
+    "Rose Syrup",
+    "Vanilla Ice Cream",
+    "Basil Seeds"
+  ],
+  "tags": [
+    "dessert",
+    "falooda",
+    "ice cream",
+    "sweet",
+    "vegetarian"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "10 min"
+},
+{
+  "id": "d02",
+  "name": "Fruit Salad with Ice Cream",
+  "category": "dessert",
+  "price": 150,
+  "description": "Fresh seasonal fruits served with creamy ice cream for a refreshing and delightful dessert.",
+  "image": "images/fruit_salad_with_ice_cream.jpg",
+  "ingredients": [
+    "Mixed Fruits",
+    "Vanilla Ice Cream",
+    "Honey",
+    "Nuts",
+    "Cherry"
+  ],
+  "tags": [
+    "dessert",
+    "fruit",
+    "ice cream",
+    "sweet",
+    "vegetarian"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "d03",
+  "name": "Fruit Salad",
+  "category": "dessert",
+  "price": 90,
+  "description": "A refreshing medley of freshly cut seasonal fruits bursting with natural sweetness.",
+  "image": "images/fruit_salad.jpg",
+  "ingredients": [
+    "Apple",
+    "Banana",
+    "Grapes",
+    "Papaya",
+    "Pomegranate"
+  ],
+  "tags": [
+    "dessert",
+    "fruit",
+    "healthy",
+    "sweet",
+    "vegetarian"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "d04",
+  "name": "Bread Halwa",
+  "category": "dessert",
+  "price": 160,
+  "description": "Soft bread slow-cooked in ghee with sugar and nuts for a rich traditional dessert.",
+  "image": "images/bread_halwa.jpg",
+  "ingredients": [
+    "Bread",
+    "Ghee",
+    "Sugar",
+    "Cashew Nuts",
+    "Cardamom"
+  ],
+  "tags": [
+    "dessert",
+    "halwa",
+    "traditional",
+    "sweet",
+    "vegetarian"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "15 min"
+},
+{
+  "id": "d05",
+  "name": "Bread Halwa with Ice Cream",
+  "category": "dessert",
+  "price": 210,
+  "description": "Warm, rich bread halwa paired with creamy ice cream for a perfect sweet combination.",
+  "image": "images/bread_halwa_with_ice_cream.jpg",
+  "ingredients": [
+    "Bread Halwa",
+    "Vanilla Ice Cream",
+    "Ghee",
+    "Cashew Nuts",
+    "Cardamom"
+  ],
+  "tags": [
+    "dessert",
+    "halwa",
+    "ice cream",
+    "sweet",
+    "vegetarian"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "10 min"
+},
+{
+  "id": "d06",
+  "name": "Brownie with Ice Cream",
+  "category": "dessert",
+  "price": 170,
+  "description": "Moist chocolate brownie served warm with creamy vanilla ice cream for a classic dessert.",
+  "image": "images/brownie_with_ice_cream.jpg",
+  "ingredients": [
+    "Chocolate Brownie",
+    "Vanilla Ice Cream",
+    "Chocolate Sauce",
+    "Butter",
+    "Cocoa"
+  ],
+  "tags": [
+    "dessert",
+    "brownie",
+    "chocolate",
+    "ice cream",
+    "sweet",
+    "vegetarian"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "10 min"
+},
+{
+  "id": "d07",
+  "name": "Sizzler Brownie with Ice Cream",
+  "category": "dessert",
+  "price": 210,
+  "description": "A sizzling chocolate brownie topped with ice cream and rich chocolate sauce for a spectacular finish.",
+  "image": "images/sizzler_brownie_with_ice_cream.jpg",
+  "ingredients": [
+    "Chocolate Brownie",
+    "Vanilla Ice Cream",
+    "Chocolate Sauce",
+    "Butter",
+    "Hot Sizzler Plate"
+  ],
+  "tags": [
+    "dessert",
+    "brownie",
+    "chocolate",
+    "ice cream",
+    "sizzler",
+    "sweet",
+    "vegetarian"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "10 min"
+},
+{
+  "id": "ic01",
+  "name": "Strawberry",
+  "category": "dessert",
+  "price": 130,
+  "description": "Creamy strawberry ice cream with a delightful fruity sweetness in every scoop.",
+  "image": "images/strawberry_ice_cream.jpg",
+  "ingredients": [
+    "Milk",
+    "Cream",
+    "Strawberry",
+    "Sugar",
+    "Stabilizer"
+  ],
+  "tags": [
+    "ice-cream",
+    "strawberry",
+    "dessert",
+    "sweet",
+    "vegetarian"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "ic02",
+  "name": "Vanilla / Mango",
+  "category": "dessert",
+  "price": 130,
+  "description": "Smooth and creamy ice cream available in classic vanilla or tropical mango flavour.",
+  "image": "images/vanilla_mango_ice_cream.jpg",
+  "ingredients": [
+    "Milk",
+    "Cream",
+    "Vanilla/Mango Pulp",
+    "Sugar",
+    "Stabilizer"
+  ],
+  "tags": [
+    "ice-cream",
+    "vanilla",
+    "mango",
+    "dessert",
+    "sweet",
+    "vegetarian"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "ic03",
+  "name": "Butter Scotch",
+  "category": "dessert",
+  "price": 140,
+  "description": "Rich butterscotch ice cream loaded with crunchy caramel bits for extra indulgence.",
+  "image": "images/butterscotch_ice_cream.jpg",
+  "ingredients": [
+    "Milk",
+    "Cream",
+    "Butterscotch Syrup",
+    "Sugar",
+    "Caramel Bits"
+  ],
+  "tags": [
+    "ice-cream",
+    "butterscotch",
+    "dessert",
+    "sweet",
+    "vegetarian"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "ic04",
+  "name": "Chocolate / Pista",
+  "category": "dessert",
+  "price": 140,
+  "description": "Creamy ice cream available in rich chocolate or nutty pista flavour.",
+  "image": "images/chocolate_pista_ice_cream.jpg",
+  "ingredients": [
+    "Milk",
+    "Cream",
+    "Chocolate/Pistachio",
+    "Sugar",
+    "Stabilizer"
+  ],
+  "tags": [
+    "ice-cream",
+    "chocolate",
+    "pista",
+    "dessert",
+    "sweet",
+    "vegetarian"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "ic05",
+  "name": "Black Current",
+  "category": "dessert",
+  "price": 140,
+  "description": "Creamy black currant ice cream with sweet berry flavours and a refreshing finish.",
+  "image": "images/black_current_ice_cream.jpg",
+  "ingredients": [
+    "Milk",
+    "Cream",
+    "Black Currant",
+    "Sugar",
+    "Stabilizer"
+  ],
+  "tags": [
+    "ice-cream",
+    "black currant",
+    "dessert",
+    "sweet",
+    "vegetarian"
+  ],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "5 min"
+},
+{
+  "id": "sp01",
+  "name": "Sweet Corn Veg Soup",
+  "category": "soup",
+  "price": 120,
+  "description": "Creamy sweet corn soup blended with fresh vegetables for a warm and comforting classic.",
+  "image": "images/sweet_corn_veg_soup.jpg",
+  "ingredients": [
+    "Sweet corn",
+    "Carrot",
+    "Beans",
+    "Corn flour",
+    "Spring onion"
+  ],
+  "tags": ["sweet corn", "veg", "soup", "vegetarian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 1,
+  "prepTime": "15 min"
+},
+{
+  "id": "sp02",
+  "name": "Hot & Sour Veg Soup",
+  "category": "soup",
+  "price": 120,
+  "description": "A spicy and tangy vegetable soup packed with fresh vegetables and bold Asian flavours.",
+  "image": "images/hot_sour_veg_soup.jpg",
+  "ingredients": [
+    "Mixed vegetables",
+    "Soy sauce",
+    "Vinegar",
+    "Black pepper",
+    "Spring onion"
+  ],
+  "tags": ["hot sour", "veg", "soup", "indo-chinese"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "15 min"
+},
+{
+  "id": "sp03",
+  "name": "Manchow Veg Soup",
+  "category": "soup",
+  "price": 120,
+  "description": "Rich vegetable soup topped with crispy noodles for a hearty Indo-Chinese favourite.",
+  "image": "images/manchow_veg_soup.jpg",
+  "ingredients": [
+    "Mixed vegetables",
+    "Garlic",
+    "Soy sauce",
+    "Spring onion",
+    "Crispy noodles"
+  ],
+  "tags": ["manchow", "veg", "soup", "indo-chinese"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "15 min"
+},
+{
+  "id": "sp04",
+  "name": "Kozhi Rasam",
+  "category": "soup",
+  "price": 140,
+  "description": "A comforting South Indian chicken rasam simmered with spices and herbs for a warm, flavourful soup.",
+  "image": "images/kozhi_rasam.jpg",
+  "ingredients": [
+    "Chicken",
+    "Tomato",
+    "Pepper",
+    "Garlic",
+    "Coriander"
+  ],
+  "tags": ["chicken", "rasam", "south indian", "soup"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "20 min"
+},
+{
+  "id": "sp05",
+  "name": "Aatukal Soup",
+  "category": "soup",
+  "price": 180,
+  "description": "Traditional mutton trotters soup slow-cooked with aromatic spices for a rich and nourishing broth.",
+  "image": "images/aatukal_soup.jpg",
+  "ingredients": [
+    "Mutton Trotters",
+    "Pepper",
+    "Garlic",
+    "Ginger",
+    "Whole Spices"
+  ],
+  "tags": ["mutton", "aatukal", "soup", "traditional"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "45 min"
+},
+{
+  "id": "sp06",
+  "name": "Mancho Chicken Soup",
+  "category": "soup",
+  "price": 140,
+  "description": "A spicy Indo-Chinese chicken soup loaded with vegetables and bold flavours.",
+  "image": "images/manchow_chicken_soup.jpg",
+  "ingredients": [
+    "Chicken",
+    "Mixed Vegetables",
+    "Garlic",
+    "Soy Sauce",
+    "Corn Flour"
+  ],
+  "tags": ["chicken", "manchow", "soup", "indo-chinese"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "20 min"
+},
+{
+  "id": "sp07",
+  "name": "Sweet Corn Chicken Soup",
+  "category": "soup",
+  "price": 140,
+  "description": "Creamy sweet corn soup with tender chicken pieces for a comforting classic favourite.",
+  "image": "images/sweet_corn_chicken_soup.jpg",
+  "ingredients": [
+    "Chicken",
+    "Sweet Corn",
+    "Egg",
+    "Corn Flour",
+    "Pepper"
+  ],
+  "tags": ["chicken", "sweet corn", "soup"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "20 min"
+},
+{
+  "id": "sp08",
+  "name": "Hot & Sour Chicken Soup",
+  "category": "soup",
+  "price": 140,
+  "description": "A bold and tangy chicken soup balanced with spicy flavours and fresh vegetables.",
+  "image": "images/hot_sour_chicken_soup.jpg",
+  "ingredients": [
+    "Chicken",
+    "Vinegar",
+    "Soy Sauce",
+    "Mixed Vegetables",
+    "Pepper"
+  ],
+  "tags": ["chicken", "hot sour", "soup", "indo-chinese"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "20 min"
+},
+{
+  "id": "sp09",
+  "name": "Mutton Pepper Soup",
+  "category": "soup",
+  "price": 180,
+  "description": "Tender mutton simmered with freshly crushed black pepper for a warm and aromatic soup.",
+  "image": "images/mutton_pepper_soup.jpg",
+  "ingredients": [
+    "Mutton",
+    "Black Pepper",
+    "Garlic",
+    "Ginger",
+    "Coriander"
+  ],
+  "tags": ["mutton", "pepper", "soup", "spicy"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 5,
+  "prepTime": "30 min"
+},
+{
+  "id": "pr01",
+  "name": "Chilli Parotta",
+  "category": "porotta",
+  "price": 180,
+  "description": "Flaky parotta stir-fried with spicy sauces, onions, and aromatic seasonings for a fiery treat.",
+  "image": "images/chilli_parotta.jpg",
+  "ingredients": [
+    "Parotta",
+    "Onion",
+    "Capsicum",
+    "Chilli sauce",
+    "Curry leaves"
+  ],
+  "tags": ["parotta", "chilli", "spicy", "south indian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "20 min"
+},
+{
+  "id": "pr02",
+  "name": "Veechu Parotta",
+  "category": "porotta",
+  "price": 60,
+  "description": "Soft, flaky layered parotta hand-stretched and cooked until golden with a delicate texture.",
+  "image": "images/veechu_parotta.jpg",
+  "ingredients": [
+    "Maida",
+    "Oil",
+    "Salt",
+    "Water",
+    "Ghee"
+  ],
+  "tags": ["parotta", "veechu", "south indian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "15 min"
+},
+{
+  "id": "pr03",
+  "name": "Kerala Parotta (1 Set)",
+  "category": "porotta",
+  "price": 80,
+  "description": "Traditional flaky Kerala-style layered parotta with a crisp exterior and soft, buttery layers.",
+  "image": "images/kerala_parotta.jpg",
+  "ingredients": [
+    "Maida",
+    "Oil",
+    "Salt",
+    "Sugar",
+    "Water"
+  ],
+  "tags": ["kerala", "parotta", "south indian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "15 min"
+},
+{
+  "id": "pr04",
+  "name": "Wheat Parotta (1 Set)",
+  "category": "porotta",
+  "price": 80,
+  "description": "Soft whole wheat layered parotta cooked to perfection for a wholesome and satisfying meal.",
+  "image": "images/wheat_parotta.jpg",
+  "ingredients": [
+    "Wheat flour",
+    "Oil",
+    "Salt",
+    "Water",
+    "Ghee"
+  ],
+  "tags": ["wheat", "parotta", "healthy"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "15 min"
+},
+{
+  "id": "pr05",
+  "name": "Veg Kothu Parotta",
+  "category": "porotta",
+  "price": 170,
+  "description": "Chopped parotta stir-fried with fresh vegetables and aromatic spices for a flavour-packed favourite.",
+  "image": "images/veg_kothu_parotta.jpg",
+  "ingredients": [
+    "Parotta",
+    "Mixed vegetables",
+    "Onion",
+    "Tomato",
+    "Curry leaves"
+  ],
+  "tags": ["kothu", "parotta", "vegetarian"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "20 min"
+},
+{
+  "id": "pr06",
+  "name": "Chapathi (1 Set)",
+  "category": "porotta",
+  "price": 80,
+  "description": "Soft whole wheat flatbread freshly prepared and served warm, perfect with any curry or gravy.",
+  "image": "images/chapathi.jpg",
+  "ingredients": [
+    "Wheat flour",
+    "Water",
+    "Salt",
+    "Oil"
+  ],
+  "tags": ["chapathi", "wheat", "indian bread"],
+  "veg": true,
+  "available": true,
+  "spiceLevel": 0,
+  "prepTime": "15 min"
+},
+{
+  "id": "pr07",
+  "name": "Egg Kothu Parotta",
+  "category": "porotta",
+  "price": 180,
+  "description": "Flaky parotta chopped and stir-fried with eggs, spices, and herbs for a flavorful South Indian favorite.",
+  "image": "images/egg_kothu_parotta.jpg",
+  "ingredients": [
+    "Parotta",
+    "Egg",
+    "Onion",
+    "Tomato",
+    "Curry Leaves"
+  ],
+  "tags": ["egg", "kothu", "parotta"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "20 min"
+},
+{
+  "id": "pr08",
+  "name": "Chicken Kothu Parotta",
+  "category": "porotta",
+  "price": 240,
+  "description": "Shredded chicken and flaky parotta wok-tossed with aromatic spices for a hearty and satisfying meal.",
+  "image": "images/chicken_kothu_parotta.jpg",
+  "ingredients": [
+    "Parotta",
+    "Chicken",
+    "Onion",
+    "Tomato",
+    "Curry Leaves"
+  ],
+  "tags": ["chicken", "kothu", "parotta"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "25 min"
+},
+{
+  "id": "pr09",
+  "name": "Mutton Kothu Parotta",
+  "category": "porotta",
+  "price": 290,
+  "description": "Tender mutton and shredded parotta stir-fried with bold spices for a rich and authentic delicacy.",
+  "image": "images/mutton_kothu_parotta.jpg",
+  "ingredients": [
+    "Parotta",
+    "Mutton",
+    "Onion",
+    "Tomato",
+    "Curry Leaves"
+  ],
+  "tags": ["mutton", "kothu", "parotta"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "30 min"
+},
+{
+  "id": "pr10",
+  "name": "Ceylon Egg Parotta",
+  "category": "porotta",
+  "price": 180,
+  "description": "Soft parotta stuffed with a spicy egg filling and pan-grilled until golden and crisp.",
+  "image": "images/ceylon_egg_parotta.jpg",
+  "ingredients": [
+    "Parotta",
+    "Egg",
+    "Onion",
+    "Green Chilli",
+    "Pepper"
+  ],
+  "tags": ["ceylon", "egg", "parotta"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "20 min"
+},
+{
+  "id": "pr11",
+  "name": "Ceylon Chicken Parotta",
+  "category": "porotta",
+  "price": 250,
+  "description": "Crispy stuffed parotta filled with juicy chicken and aromatic spices for a delicious bite.",
+  "image": "images/ceylon_chicken_parotta.jpg",
+  "ingredients": [
+    "Parotta",
+    "Chicken",
+    "Onion",
+    "Green Chilli",
+    "Pepper"
+  ],
+  "tags": ["ceylon", "chicken", "parotta"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "25 min"
+},
+{
+  "id": "pr12",
+  "name": "Ceylon Mutton Parotta",
+  "category": "porotta",
+  "price": 300,
+  "description": "Flaky parotta generously filled with spiced mutton and grilled to golden perfection.",
+  "image": "images/ceylon_mutton_parotta.jpg",
+  "ingredients": [
+    "Parotta",
+    "Mutton",
+    "Onion",
+    "Green Chilli",
+    "Pepper"
+  ],
+  "tags": ["ceylon", "mutton", "parotta"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "30 min"
+},
+{
+  "id": "pr13",
+  "name": "Anifa Chicken Roll",
+  "category": "porotta",
+  "price": 250,
+  "description": "Soft parotta wrapped around juicy chicken filling with fresh vegetables and flavorful sauces.",
+  "image": "images/anifa_chicken_roll.jpg",
+  "ingredients": [
+    "Parotta",
+    "Chicken",
+    "Onion",
+    "Cabbage",
+    "Mayonnaise"
+  ],
+  "tags": ["chicken", "roll", "parotta", "special"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "20 min"
+},
+{
+  "id": "td01",
+  "name": "Tandoori Chicken (Full/Half)",
+  "category": "tandoori",
+  "price": "560/290",
+  "description": "Chicken marinated in aromatic spices and yogurt, roasted in a tandoor for a smoky and juicy finish.",
+  "image": "images/tandoori_chicken.jpg",
+  "ingredients": [
+    "Chicken",
+    "Yogurt",
+    "Kashmiri Chilli",
+    "Ginger-Garlic Paste",
+    "Garam Masala"
+  ],
+  "tags": ["tandoori", "chicken", "grill", "non-vegetarian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "40 min"
+},
+{
+  "id": "td02",
+  "name": "Alfaham BBQ (Full/Half)",
+  "category": "tandoori",
+  "price": "560/290",
+  "description": "Arabian-style grilled chicken marinated with mild spices and charcoal-roasted for tender, smoky flavour.",
+  "image": "images/alfaham_bbq.jpg",
+  "ingredients": [
+    "Chicken",
+    "Yogurt",
+    "Lemon Juice",
+    "Garlic",
+    "Arabian Spices"
+  ],
+  "tags": ["alfaham", "bbq", "chicken", "arabian"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "40 min"
+},
+{
+  "id": "td03",
+  "name": "Anifa Spl BBQ (Full/Half)",
+  "category": "tandoori",
+  "price": "560/290",
+  "description": "House-special barbecue chicken marinated in signature spices and flame-grilled to perfection.",
+  "image": "images/anifa_special_bbq.jpg",
+  "ingredients": [
+    "Chicken",
+    "Yogurt",
+    "Signature Spice Mix",
+    "Garlic",
+    "Lemon Juice"
+  ],
+  "tags": ["bbq", "special", "chicken", "signature"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "45 min"
+},
+{
+  "id": "td04",
+  "name": "Pepper BBQ (Full/Half)",
+  "category": "tandoori",
+  "price": "560/290",
+  "description": "Juicy grilled chicken coated with freshly crushed black pepper for a bold and spicy flavour.",
+  "image": "images/pepper_bbq.jpg",
+  "ingredients": [
+    "Chicken",
+    "Black Pepper",
+    "Garlic",
+    "Lemon Juice",
+    "Butter"
+  ],
+  "tags": ["bbq", "pepper", "chicken", "spicy"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 5,
+  "prepTime": "40 min"
+},
+{
+  "id": "td05",
+  "name": "Grill Chicken (Full/Half)",
+  "category": "tandoori",
+  "price": "560/290",
+  "description": "Perfectly grilled chicken with a smoky aroma and juicy texture seasoned with classic spices.",
+  "image": "images/grill_chicken.jpg",
+  "ingredients": [
+    "Chicken",
+    "Lemon Juice",
+    "Garlic",
+    "Pepper",
+    "Butter"
+  ],
+  "tags": ["grill", "chicken", "bbq"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "40 min"
+},
+{
+  "id": "td06",
+  "name": "Chicken Tikka",
+  "category": "tandoori",
+  "price": 320,
+  "description": "Boneless chicken cubes marinated and roasted until tender with a rich smoky flavour.",
+  "image": "images/chicken_tikka.jpg",
+  "ingredients": [
+    "Boneless Chicken",
+    "Yogurt",
+    "Kashmiri Chilli",
+    "Ginger-Garlic Paste",
+    "Garam Masala"
+  ],
+  "tags": ["chicken", "tikka", "tandoori"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "30 min"
+},
+{
+  "id": "td07",
+  "name": "Fish BBQ",
+  "category": "tandoori",
+  "price": 340,
+  "description": "Fresh fish marinated with spices and charcoal-grilled for a smoky and flaky delight.",
+  "image": "images/fish_bbq.jpg",
+  "ingredients": [
+    "Fish",
+    "Lemon Juice",
+    "Garlic",
+    "Pepper",
+    "Butter"
+  ],
+  "tags": ["fish", "bbq", "seafood", "grill"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "30 min"
+},
+{
+  "id": "td08",
+  "name": "Tandoori Fish",
+  "category": "tandoori",
+  "price": 350,
+  "description": "Fresh fish marinated in traditional tandoori spices and roasted until perfectly tender.",
+  "image": "images/tandoori_fish.jpg",
+  "ingredients": [
+    "Fish",
+    "Yogurt",
+    "Kashmiri Chilli",
+    "Ginger-Garlic Paste",
+    "Garam Masala"
+  ],
+  "tags": ["fish", "tandoori", "seafood"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "30 min"
+},
+{
+  "id": "td09",
+  "name": "Tangri Kebab (2 Leg Pieces)",
+  "category": "tandoori",
+  "price": 320,
+  "description": "Juicy chicken leg pieces marinated in aromatic spices and grilled to smoky perfection.",
+  "image": "images/tangri_kebab.jpg",
+  "ingredients": [
+    "Chicken Leg",
+    "Yogurt",
+    "Garlic",
+    "Kashmiri Chilli",
+    "Garam Masala"
+  ],
+  "tags": ["kebab", "chicken", "tandoori"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "30 min"
+},
+{
+  "id": "td10",
+  "name": "Malai Kebab (Sweet)",
+  "category": "tandoori",
+  "price": 320,
+  "description": "Creamy chicken kebabs marinated with cheese and cream for a rich, mildly spiced flavour.",
+  "image": "images/malai_kebab.jpg",
+  "ingredients": [
+    "Chicken",
+    "Fresh Cream",
+    "Cheese",
+    "Cashew Paste",
+    "Pepper"
+  ],
+  "tags": ["kebab", "malai", "chicken", "creamy"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 1,
+  "prepTime": "30 min"
+},
+{
+  "id": "td11",
+  "name": "Rashmi Kebab",
+  "category": "tandoori",
+  "price": 320,
+  "description": "Succulent chicken kebabs marinated in creamy spices and grilled until tender and juicy.",
+  "image": "images/rashmi_kebab.jpg",
+  "ingredients": [
+    "Chicken",
+    "Yogurt",
+    "Fresh Cream",
+    "Cashew Paste",
+    "Pepper"
+  ],
+  "tags": ["kebab", "rashmi", "chicken"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 2,
+  "prepTime": "30 min"
+},
+{
+  "id": "td12",
+  "name": "Hariyali Kebab",
+  "category": "tandoori",
+  "price": 320,
+  "description": "Herb-marinated chicken infused with mint and coriander, grilled for a fresh aromatic taste.",
+  "image": "images/hariyali_kebab.jpg",
+  "ingredients": [
+    "Chicken",
+    "Mint",
+    "Coriander",
+    "Yogurt",
+    "Green Chilli"
+  ],
+  "tags": ["kebab", "hariyali", "chicken", "herbs"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 3,
+  "prepTime": "30 min"
+},
+{
+  "id": "td13",
+  "name": "Achari Kebab",
+  "category": "tandoori",
+  "price": 320,
+  "description": "Tangy chicken kebabs marinated with traditional pickle spices and roasted for bold flavour.",
+  "image": "images/achari_kebab.jpg",
+  "ingredients": [
+    "Chicken",
+    "Pickle Masala",
+    "Yogurt",
+    "Mustard Oil",
+    "Garlic"
+  ],
+  "tags": ["kebab", "achari", "chicken", "tandoori"],
+  "veg": false,
+  "available": true,
+  "spiceLevel": 4,
+  "prepTime": "30 min"
+}
   ]
 }

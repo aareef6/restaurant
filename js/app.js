@@ -141,11 +141,25 @@
 
     els.footerMap.src = r.mapEmbed || "";
 
-    const waLink = `https://wa.me/${r.whatsapp}?text=${encodeURIComponent("Hi! I'd like to know more about your menu.")}`;
-    els.socialWhatsapp.href = waLink;
-    els.whatsappFab.href = waLink;
-    els.socialFacebook.href = r.social.facebook;
-    els.socialInstagram.href = r.social.instagram;
+els.socialWhatsapp = document.getElementById("socialWhatsapp");
+els.socialFacebook = document.getElementById("socialFacebook");
+els.socialInstagram = document.getElementById("socialInstagram");
+
+const waLink = `https://wa.me/${r.social.whatsapp}?text=${encodeURIComponent(
+  "Hi! I'd like to know more about your menu."
+)}`;
+
+console.log("WhatsApp number:", r.social.whatsapp);
+console.log("WhatsApp link:", waLink);
+
+els.socialWhatsapp.href = waLink;
+els.socialFacebook.href = r.social.facebook;
+els.socialInstagram.href = r.social.instagram;
+
+console.log("WhatsApp element:", els.socialWhatsapp);
+console.log("WhatsApp href:", els.socialWhatsapp.href);
+
+
   }
 
   function renderStats(data) {
